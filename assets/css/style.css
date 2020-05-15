@@ -2512,3 +2512,17 @@ img {
     font-size: 100px;
   }
 }
+
+/*Styles for couse details page*/
+
+.course_overview{
+  list-style: disc;
+  list-style-position: inside;
+}
+.benefits{
+  list-style: disc;
+  list-style-position: inside;
+}
+.alpha{
+  list-style: lower-alpha;
+}
