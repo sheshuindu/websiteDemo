@@ -235,6 +235,10 @@ img {
   color: #fff;
 }
 
+#navbar-title{
+  margin-top: 10px;
+}
+
 /* ALL SECTION */
 /*scrol to top*/
 .scrollToTop {
@@ -818,6 +822,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
+  height: 400px;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single:hover .mu-our-teacher-img .mu-our-teacher-social {
   opacity: 0.5;
@@ -838,6 +843,7 @@ img {
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img img {
   width: 100%;
+  height: 200px;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img .mu-our-teacher-social {
   bottom: 0;
@@ -1010,6 +1016,7 @@ img {
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .slick-dots li button {
   display: none;
 }
+
 
 /*==================
  FROM BLOG SECTION
@@ -2034,6 +2041,11 @@ img {
     top: 13%;
   }
 }
+@media(max-width:1000){
+  #navbar-title-text{
+    font-size:18px;
+  }
+}
 @media (max-width: 991px) {
   #mu-menu .navbar-default .navbar-nav li > a {
     font-size: 15px;
@@ -2112,7 +2124,6 @@ img {
   #mu-latest-courses {
     padding: 60px 0 90px;
   }
-
   #mu-our-teacher {
     padding: 60px 0;
     width: 100%;
@@ -2377,6 +2388,11 @@ img {
   #mu-service .mu-service-area .mu-service-single {
     padding: 20px 15px;
     width: 100%;
+  }
+
+  #navbar-title-text{
+    margin-top: 8px;
+    font-size:16px;
   }
 
   #mu-service .mu-service-area .mu-service-single h3 {
