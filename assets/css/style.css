@@ -123,7 +123,7 @@ img {
  HEADER SECTION
 ====================*/
 .social-media-icon{
-  width: 16px;
+  max-width: 16px;
 }
 
 #mu-header {
@@ -2418,6 +2418,10 @@ img {
   }
 }
 @media (max-width: 480px) {
+  .social-media-icon{
+    max-width: 14px;
+  }
+  
   #mu-header .mu-header-area .mu-header-top-left .mu-top-email {
     font-size: 12px;
     margin-top: 3px;
