@@ -1193,7 +1193,7 @@ img {
   width: 100%;
 }
 #mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar {
-  background-color: #FFF;
+  background-color: #eaeaea;
   display: inline;
   float: left;
   margin-bottom: 25px;
@@ -2630,4 +2630,11 @@ img {
 
 #sidebar-table  td{
   padding:10px;
+}
+
+#sidebar-icon{
+  text-align:center;
+  margin-top: 10px;
+  border-radius: 100%;
+  border: 2px solid #dadada;
 }
