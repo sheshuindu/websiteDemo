@@ -47,6 +47,10 @@ body {
   border: none;
 }
 
+img{
+  width: 100%;
+}
+
 /* MODULES - Individual site components */
 ul {
   padding: 0;
@@ -175,6 +179,7 @@ img {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 
 /*==================
  NAVBAR SECTION
@@ -715,6 +720,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
+  height: 450px;
 }
 .mu-latest-course-single .mu-latest-course-img {
   display: inline;
@@ -1287,6 +1293,11 @@ img {
 }
 #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content .table {
   margin-top: 10px;
+}
+
+.mu-latest-course-img{
+  height:200px;
+  overflow: hidden;
 }
 
 .mu-pagination {
@@ -2029,6 +2040,20 @@ img {
   color: #fff;
 }
 
+/*Styles for couse details page*/
+
+.course_overview{
+  list-style: disc;
+  list-style-position: inside;
+}
+.benefits{
+  list-style: disc;
+  list-style-position: inside;
+}
+.alpha{
+  list-style: lower-alpha;
+}
+
 /*==================
  RESPONSIVE DESIGN
 ====================*/
@@ -2040,6 +2065,12 @@ img {
   #mu-slider .mu-slider-single .mu-slider-content {
     top: 13%;
   }
+
+  .mu-latest-course-img{
+    height:180px;
+    overflow: hidden;
+  }
+
 }
 @media(max-width:1000){
   #navbar-title-text{
@@ -2124,6 +2155,17 @@ img {
   #mu-latest-courses {
     padding: 60px 0 90px;
   }
+
+  .mu-latest-course-single{
+    width: 100%;
+    height: 500px;
+  }
+
+  .mu-latest-course-img{
+    height:140px;
+    overflow: hidden;
+  }
+
   #mu-our-teacher {
     padding: 60px 0;
     width: 100%;
@@ -2164,6 +2206,11 @@ img {
 
   #mu-course-content .mu-course-content-area .mu-sidebar {
     margin-top: 30px;
+  }
+
+  .mu-latest-course-img{
+    height:140px;
+    overflow: hidden;
   }
 
   #mu-search .mu-search-area .mu-search-form input[type="search"] {
@@ -2274,6 +2321,11 @@ img {
     margin-top: 0;
   }
 
+  .mu-latest-course-img{
+    height:120px;
+    overflow: hidden;
+  }
+
   #mu-course-content {
     padding: 50px 0;
   }
@@ -2329,8 +2381,18 @@ img {
     font-size: 16px;
   }
 
+  .mu-latest-course-single{
+    width: 100%;
+    height: 540px;
+  }
+
+  .mu-latest-course-img{
+    height:140px;
+    overflow: hidden;
+  }
+
   #mu-slider .mu-slider-single .mu-slider-img figure img {
-    width: auto;
+    width: 100%;
   }
 
   #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li {
@@ -2392,7 +2454,7 @@ img {
 
   #navbar-title-text{
     margin-top: 8px;
-    font-size:16px;
+    font-size:14px;
   }
 
   #mu-service .mu-service-area .mu-service-single h3 {
@@ -2403,6 +2465,16 @@ img {
     height: 300px;
     margin: 5% auto;
     width: 80%;
+  }
+
+  .mu-latest-course-single{
+    width: 100%;
+    height: 380px;
+  }
+
+  .mu-latest-course-img{
+    height:200px;
+    overflow: hidden;
   }
 
   #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form input[type="email"] {
@@ -2463,9 +2535,15 @@ img {
   }
 }
 @media (max-width: 360px) {
+
   #mu-about-us .mu-about-us-area .mu-about-us-left h2 {
     font-size: 30px;
     margin-bottom: 10px;
+  }
+
+  #navbar-title-text{
+    margin-top: 8px;
+    font-size:12px;
   }
 
   #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote {
@@ -2511,18 +2589,4 @@ img {
   #mu-error .mu-error-area h2 {
     font-size: 100px;
   }
-}
-
-/*Styles for couse details page*/
-
-.course_overview{
-  list-style: disc;
-  list-style-position: inside;
-}
-.benefits{
-  list-style: disc;
-  list-style-position: inside;
-}
-.alpha{
-  list-style: lower-alpha;
 }
