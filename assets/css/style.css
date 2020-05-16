@@ -123,7 +123,10 @@ img {
  HEADER SECTION
 ====================*/
 .social-media-icon{
-  max-width: 16px;
+  max-width:16px;
+}
+.mu-top-social-nav img{
+  max-width:16px;
 }
 
 #mu-header {
