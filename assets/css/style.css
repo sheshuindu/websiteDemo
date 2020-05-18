@@ -123,10 +123,10 @@ img {
  HEADER SECTION
 ====================*/
 .social-media-icon{
-  max-width:16px;
+  max-width:20px;
 }
 .mu-top-social-nav img{
-  max-width:16px;
+  max-width:20px;
 }
 
 #mu-header {
@@ -179,7 +179,7 @@ img {
 }
 #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a {
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   padding: 0 8px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -2369,6 +2369,14 @@ img {
   }
 }
 @media (max-width: 640px) {
+
+  .social-media-icon{
+    max-width:16px;
+  }
+  .mu-top-social-nav img{
+    max-width:16px;
+  }
+
   #mu-header .mu-header-area .mu-header-top-left .mu-top-phone {
     display: none;
   }
@@ -2421,8 +2429,12 @@ img {
   }
 }
 @media (max-width: 480px) {
+
   .social-media-icon{
-    max-width: 14px;
+    max-width:14px;
+  }
+  .mu-top-social-nav img{
+    max-width:14px;
   }
   
   #mu-header .mu-header-area .mu-header-top-left .mu-top-email {
