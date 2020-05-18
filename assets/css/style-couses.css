@@ -1,0 +1,16 @@
+.course-page-banner{
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+#sidebar-table  td{
+  padding:10px;
+}
+
+#sidebar-icon{
+  text-align:center;
+  margin-top: 10px;
+  border-radius: 100%;
+  border: 2px solid #dadada;
+}

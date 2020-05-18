@@ -249,7 +249,8 @@ img {
 }
 
 #navbar-title{
-  margin: 10px;
+  margin-left: 10px;
+  margin-top:12px;
 }
 #navbar-title-letfix{
   color:#03989e;

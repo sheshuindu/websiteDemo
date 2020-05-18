@@ -1,0 +1,34 @@
+/*===================header=============================*/
+#mu-menu .navbar-header .navbar-brand{
+  padding:5px;
+}
+.navbar-brand{
+  line-height:normal;
+}
+/*====================slider=============================*/
+
+#mu-slider .mu-slider-single .mu-slider-content {
+    padding: 0 10%;
+  }
+
+  #mu-slider .mu-slider-single .mu-slider-content {
+    top: 13%;
+  }
+
+/*====================services============================*/
+
+.slider-below_max-height{
+  max-height:280px;
+  height:280px;
+}
+
+/*======================latest courses=====================*/
+
+.course-div-set-height{
+  height: 450px;
+}
+
+.course-img-set-height{
+  height: 180px;
+  overflow: hidden;
+}
