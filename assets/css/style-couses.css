@@ -1,8 +1,22 @@
+/*================================banner============================*/
+
 .course-page-banner{
   width: 100%;
   max-height: 400px;
   overflow: hidden;
 }
+
+/*================================description=========================*/
+
+#mu-course-content{
+  padding: 60px 0;
+}
+
+#mu-course-content .mu-course-content-area .mu-course-container .mu-latest-course-single{
+  margin-bottom: 0px;
+}
+
+/*================================sidebar===========================*/
 
 #sidebar-table  td{
   padding:10px;
@@ -10,7 +24,22 @@
 
 #sidebar-icon{
   text-align:center;
-  margin-top: 10px;
+  padding: 10px;
+  color: #03989e;
+  border: 2px solid #03989e;
   border-radius: 100%;
-  border: 2px solid #dadada;
+}
+
+/*===============================course overview===================*/
+
+.course_overview{
+  list-style: disc;
+  list-style-position: inside;
+}
+.benefits{
+  list-style: disc;
+  list-style-position: inside;
+}
+.alpha{
+  list-style: lower-alpha;
 }

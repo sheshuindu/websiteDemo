@@ -1207,7 +1207,6 @@ img {
   width: 100%;
 }
 #mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar {
-  background-color: #eaeaea;
   display: inline;
   float: left;
   margin-bottom: 25px;
@@ -2064,17 +2063,4 @@ img {
   color: #fff;
 }
 
-/*Styles for couse details page*/
-
-.course_overview{
-  list-style: disc;
-  list-style-position: inside;
-}
-.benefits{
-  list-style: disc;
-  list-style-position: inside;
-}
-.alpha{
-  list-style: lower-alpha;
-}
 

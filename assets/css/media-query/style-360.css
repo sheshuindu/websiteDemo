@@ -58,6 +58,7 @@
 /*===================latest courses===========*/
 .course-img-set-height{
   height:140px;
+  overflow: hidden;
 }
 
 

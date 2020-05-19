@@ -26,6 +26,16 @@
     <!-- Custom style sheet -->
     <link rel="stylesheet" href="assets/css/custom.css">
 
+    <!--responsive style sheet-->
+    <link href="assets/css/media-query/style-1199.css" media="(max-width:1199px)" rel="stylesheet">
+    <link href="assets/css/media-query/style-991.css" media="(max-width:991px)" rel="stylesheet">
+    <link href="assets/css/media-query/style-768.css" media="(max-width:768px)" rel="stylesheet">
+    <link href="assets/css/media-query/style-480.css" media="(max-width:480px)" rel="stylesheet">
+    <link href="assets/css/media-query/style-360.css" media="(max-width:360px)" rel="stylesheet">
+
+    <!--course style sheet-->
+    <link href="assets/css/style-couses.css" rel="stylesheet">
+
    
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -100,10 +110,9 @@
           </button>
           <!-- LOGO -->              
           <!-- TEXT BASED LOGO -->
-          <a class="navbar-brand" href="index.html"><span><img class="logo__max-height" src="assets/img/logo.png" title="LETFIX TECHNOLOGIES" alt="LETFIX TECHNOLOGIES"></span></a>
+          <a class="navbar-brand" href="index.html"><span><img class="logo__max-height" id="logo" src="assets/img/logo.jpeg" title="LETFIX TECHNOLOGIES" alt="LETFIX TECHNOLOGIES"></span></a>
           <!-- IMG BASED LOGO  -->
-          <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a> -->
-          <a class="navbar-brand" id="navbar-title" style="color: #03989e;" href="index.html"><span id="navbar-title-text">LETFIX </span><span id="navbar-title-text" style="color:#545454;text-transform: capitalize;">Technologies</span></a>
+          <a class="navbar-brand" id="navbar-title" href="index.html"><span id="navbar-title-letfix">LETFIX </span><span id="navbar-title-technologies">Technologies</span></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
@@ -115,14 +124,14 @@
                 <li><a href="course-detail.html">Course Detail</a></li>                
               </ul>
             </li>           
-            <li><a href="gallery.html">Gallery</a></li>
+            <!--<li><a href="gallery.html">Gallery</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="blog-archive.html">Blog Archive</a></li>                
                 <li><a href="blog-single.html">Blog Single</a></li>                
               </ul>
-            </li>            
+            </li>-->          
             <li><a href="contact.html">Contact</a></li>            
             <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
           </ul>                    
@@ -179,10 +188,10 @@
                       <div class="mu-latest-course-single">
                         <figure class="mu-latest-course-img course-page-banner">
                           <a href="#"><img src="assets/img/courses/industrial_automation.jpg" alt="img"></a>
-                          <figcaption class="mu-latest-course-imgcaption">
+                          <!--<figcaption class="mu-latest-course-imgcaption">
                             <a href="#">Duration</a>
                             <span><i class="fa fa-clock-o"></i>3 Months</span>
-                          </figcaption>
+                          </figcaption>-->
                         </figure>
                         <div class="mu-latest-course-single-content">
                           <h2><a href="#">INDUSTRIAL AUTOMATION</a></h2>
@@ -396,10 +405,10 @@
                       </div>
                     </div>
                   </div>
+                 </div>
                 </div>
-                  </div>
-                </div>
-                <!-- end start related course item -->
+               </div>
+               <!-- end start related course item -->
               </div>
               <div class="col-md-3">
                 <!-- start sidebar -->
@@ -546,32 +555,32 @@
       <div class="container">
         <div class="mu-footer-top-area">
           <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
               <div class="mu-footer-widget">
                 <h4>Information</h4>
                 <ul>
                   <li><a href="detail.html">About Us</a></li>
-                  <li><a href="">Features</a></li>
+                  <!--<li><a href="">Features</a></li>-->
                   <li><a href="">Course</a></li>
                   <li><a href="">Event</a></li>
-                  <li><a href="">Sitemap</a></li>
+                  <!--<li><a href="">Sitemap</a></li>-->
                   <li><a href="">Term Of Use</a></li>
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
               <div class="mu-footer-widget">
                 <h4>Student Help</h4>
                 <ul>
                   <li><a href="">Get Started</a></li>
                   <li><a href="#">My Questions</a></li>
                   <li><a href="">Download Files</a></li>
-                  <li><a href="">Latest Course</a></li>
+                  <!--<li><a href="">Latest Course</a></li>-->
                   <li><a href="">Academic News</a></li>                  
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
               <div class="mu-footer-widget">
                 <h4>News letter</h4>
                 <p>Get latest update, news & academic offers</p>
@@ -581,19 +590,20 @@
                 </form>               
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
               <div class="mu-footer-widget">
                 <h4>Contact</h4>
                 <address>
-                  <p>P.O. Box 320, Ross, California 9495, USA</p>
-                  <p>Phone: (415) 453-1568 </p>
-                  <p>Website: www.markups.io</p>
+                  <p> 68, Perumalagaram Salai, Perumalagaram, Thiruverkadu, Chennai, Tamil Nadu 600077</p>
+                  <p>Phone: 7358450114 </p>
+                  <p>Website: www.gridtechnologies.info</p>
                   <p>Email:letfixtechnologies@gmail.com</p>
                 </address>
               </div>
             </div>
           </div>
         </div>
+        <a href="https://icons8.com/icon/37246/gmail" style="opacity: 0;">All icons by Icons8</a>
       </div>
     </div>
     <!-- end footer top -->
@@ -601,7 +611,7 @@
     <div class="mu-footer-bottom">
       <div class="container">
         <div class="mu-footer-bottom-area">
-          <p>&copy; All Right Reserved. Designed by <a href="http://www.markups.io/" rel="nofollow">MarkUps.io</a></p>
+          <p>&copy; All Right Reserved. Designed by <a href="#" rel="nofollow">LETFIX TECHNOLOGIES</a></p>
         </div>
       </div>
     </div>
