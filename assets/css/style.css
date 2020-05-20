@@ -968,6 +968,8 @@ img {
   display: inline;
   float: left;
   width: 100%;
+  background-color: #333;
+  border-radius: 10px;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item {
   display: inline;
@@ -976,7 +978,6 @@ img {
   outline: none;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote {
-  background-color: #333;
   border-radius: 4px;
   display: inline;
   float: left;
@@ -1017,6 +1018,7 @@ img {
   border: 1px solid #888;
   border-radius: 50%;
   margin: -50px auto 5px;
+  height: 80px;
   padding: 0;
   width: 120px;
 }
