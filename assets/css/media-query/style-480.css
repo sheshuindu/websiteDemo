@@ -1,10 +1,5 @@
-/*========================header===========================*/
-  .social-media-icon{
-    max-width:14px;
-  }
-  .mu-top-social-nav img{
-    max-width:14px;
-  }
+/*========================header===========================
+
   
   #mu-header .mu-header-area .mu-header-top-left .mu-top-email {
     font-size: 12px;
@@ -26,7 +21,7 @@
 
   #mu-menu .navbar-header .navbar-brand{
     font-size: 16px;
-  }
+  }*/
   /*=============================slider========================*/
 
   #mu-slider .mu-slider-single .mu-slider-content h2 {
@@ -167,4 +162,13 @@
 
   #mu-contact .mu-contact-area .mu-contact-content .mu-contact-right iframe {
     height: 350px;
+  }
+
+  /*=================================social media=====================*/
+
+  .social-media-icon{
+    max-width:35px;
+  }
+  .mu-top-social-nav img{
+    max-width:35px;
   }

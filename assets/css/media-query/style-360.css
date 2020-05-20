@@ -1,17 +1,11 @@
-/*============header================*/
+/*============header================
 
 .col-xs-3{
   width: 0%;
 }
 .col-xs-9{
   width: 100%;
-}
-.social-media-icon{
-  max-width:12px;
-}
-.mu-top-social-nav img{
-  max-width:12px;
-}
+}*/
 
 /*================menu==============*/
 
@@ -119,4 +113,13 @@
 
   #mu-error .mu-error-area h2 {
     font-size: 100px;
+  }
+
+  /*=======================social media icon===================*/
+  .social-media-icon{
+    max-width:30px;
+  }
+
+  .mu-top-social-nav img{
+    max-width:30px;
   }

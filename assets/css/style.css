@@ -27,8 +27,7 @@
 #CONTACT PAGE
 #ERROR  PAGE
 #FOOTER SECTION
-#RESPONSIVE DESIGN
-#COLORING LOGO
+#SOCIAL MEDIA ICONS
 */
 
 /* BASE - Base tyles, Variables, Mixins, etc. */
@@ -121,14 +120,7 @@ img {
 /* LAYOUTS - Page layout styles */
 /*==================
  HEADER SECTION
-====================*/
-.social-media-icon{
-  max-width:20px;
-}
-.mu-top-social-nav img{
-  max-width:20px;
-}
-
+====================
 #mu-header {
   background-color: #f8f8f8;
   display: inline;
@@ -186,7 +178,7 @@ img {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
-}
+}*/
 
 
 /*==================
@@ -2061,6 +2053,34 @@ img {
 }
 #mu-footer .mu-footer-bottom .mu-footer-bottom-area p a {
   color: #fff;
+}
+
+/*=======================================================
+                       chat box
+=========================================================*/
+.d-hotline.h-btn{
+  position: fixed;
+}
+
+/*========================================================
+                      social media
+=========================================================*/
+.mu-header-top-right{
+  position: fixed;
+  right: 0px;
+  top:30vh;
+  background-color: #f8f8f8;
+  border-bottom-left-radius:8px;
+  border-top-left-radius: 8px;
+  z-index:10;
+}
+
+.social-media-icon{
+  max-width:48px;
+}
+
+.mu-top-social-nav img{
+  max-width:48px;
 }
 
 

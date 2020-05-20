@@ -1,14 +1,7 @@
-/*=========================header===========================*/
-.social-media-icon{
-    max-width:16px;
-  }
-  .mu-top-social-nav img{
-    max-width:16px;
-  }
-
+/*=========================social media===========================
   #mu-header .mu-header-area .mu-header-top-left .mu-top-phone {
     display: none;
-  }
+  }*/
 
   /*=====================================slider==================================*/
 
@@ -75,5 +68,14 @@
   #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li {
     padding: 5px 10px;
     margin-bottom: 5px;
+  }
+
+  /*===================================social media icon===========================*/
+  .social-media-icon{
+    max-width:40px;
+  }
+  
+  .mu-top-social-nav img{
+    max-width:40px;
   }
 
