@@ -9,7 +9,9 @@
   }
   #mu-menu .navbar-header .navbar-brand {
     font-size: 24px;
+    padding-top: 10px;
   }
+
   /*==================slider====================================*/
 
   #mu-slider .mu-slider-single .mu-slider-content h2 {

@@ -195,7 +195,7 @@ img {
   font-size: 26px;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 20px;
+  padding-top: 15px;
   letter-spacing: 0.5px;
 }
 #mu-menu .navbar-header .navbar-brand i {
@@ -649,6 +649,7 @@ img {
   margin-top: 20px;
   padding: 0 10px;
   width: 100%;
+  text-align: center;
 }
 #mu-features .mu-features-area .mu-features-content .mu-single-feature span {
   font-size: 25px;
@@ -659,16 +660,6 @@ img {
   margin-top: 15px;
   padding-bottom: 10px;
   position: relative;
-}
-#mu-features .mu-features-area .mu-features-content .mu-single-feature h4:after {
-  background-color: #333;
-  content: '';
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 2px;
-  width: 70px;
-  position: absolute;
 }
 #mu-features .mu-features-area .mu-features-content .mu-single-feature p {
   font-size: 15px;
@@ -1020,7 +1011,7 @@ img {
   margin: -50px auto 5px;
   height: 80px;
   padding: 0;
-  width: 120px;
+  width: 80px;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info {
   display: inline;
@@ -2071,18 +2062,21 @@ img {
   position: fixed;
   right: 0px;
   top:30vh;
-  background-color: #f8f8f8;
+  width: 25px;
   border-bottom-left-radius:8px;
   border-top-left-radius: 8px;
-  z-index:10;
+  z-index: 10;
 }
 
 .social-media-icon{
-  max-width:48px;
+  width: 25px;
+}
+.social-media-icon:hover{
+  width:30px;
+  background-color:#03989e;
+  position: relative;
+  right:5px;
 }
 
-.mu-top-social-nav img{
-  max-width:48px;
-}
 
 

@@ -56,22 +56,30 @@
     height: 220px;
   }
 
+  .slider-below_max-height{
+    max-height: unset;
+    height: unset;
+  }
+  
+  /*================================menu===============================*/
+
+  #mu-menu .navbar-header .navbar-brand{
+    margin-top:8px;
+    font-size:12px;
+  }
+
+  .logo__max-height{
+    height: 25px;
+    width:23px;
+  }
+
+  /*=================================services=============================*/
+
   #mu-service .mu-service-area .mu-service-single {
     padding: 20px 15px;
     width: 100%;
   }
 
-  #navbar-title .navbar-brand{
-    margin-top:8px;
-    font-size:12px;
-  }
-
-  /*=================================services=============================*/
-
-  .slider-below_max-height{
-    max-height: unset;
-    height: unset;
-  }
 
   #mu-service .mu-service-area .mu-service-single h3 {
     font-size: 18px;

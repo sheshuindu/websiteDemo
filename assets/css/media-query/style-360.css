@@ -15,10 +15,12 @@
 
 #mu-menu .navbar-header .navbar-brand{
   font-size: 12px;
+  margin-top:5px;
 }
 
 #logo{
-  height:30px;
+  height:24px;
+  width: 22px;
 }
 
 .navbar-brand{
