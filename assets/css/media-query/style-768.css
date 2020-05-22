@@ -96,4 +96,30 @@
   .mu-top-social-nav img{
     max-width:40px;
   }
+  /*===================================contact page===============================*/
+  .mu-contact-background{
+    width: 100%;
+    opacity:0.4;
+}
+
+.mu-contact-banner{
+    width: 100%;
+}
+
+.mu-contact-detail{
+    position: absolute;
+    top:40%;
+    width: 100%;
+}
+
+.mu-contact-detail li{
+    text-align: center;
+    padding: 0;
+}
+
+.mu-contact-detail img{
+    text-align: center;
+    padding: 0;
+    width: 30px;
+}
 
