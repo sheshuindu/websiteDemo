@@ -2064,10 +2064,13 @@ img {
   right: 0px;
   top:30vh;
   width: 25px;
-  background-color: #089191;
   border-bottom-left-radius:8px;
   border-top-left-radius: 8px;
   z-index: 10;
+}
+
+.social-media{
+  opacity: 0;
 }
 
 .social-media-icon{
