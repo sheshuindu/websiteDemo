@@ -656,7 +656,6 @@ img {
 #mu-features .mu-features-area .mu-features-content .mu-single-feature h4 {
   margin-bottom: 15px;
   margin-top: 15px;
-  padding-bottom: 10px;
   position: relative;
 }
 #mu-features .mu-features-area .mu-features-content .mu-single-feature p {
@@ -703,7 +702,7 @@ img {
 #mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content {
   display: inline;
   float: left;
-  margin-top: 50px;
+  margin-top: 20px;
   width: 100%;
 }
 #mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content .slick-slide {
@@ -2078,7 +2077,6 @@ img {
 }
 .social-media-icon:hover{
   width:30px;
-  background-color:#03989e;
   position: relative;
   right:5px;
 }
