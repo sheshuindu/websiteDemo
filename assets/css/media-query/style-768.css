@@ -58,7 +58,7 @@
 /*=====================================testimonial============================================*/
 
 #mu-testimonial{
-  padding:40px 0p;
+  padding:20px;
 }
 
   #mu-slider .mu-slider-single .mu-slider-img figure img {
@@ -79,11 +79,13 @@
   #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote {
     border-radius: 4px;
     float: left;
-    padding: 60px 0 ;
+    padding: 20px ;
+    padding-bottom: 40px;
     width: 100%;
   }
   .mu-testimonial-detail{
     width: 100%;
+    padding: 0;
   }
 
   /*===================================social media icon===========================*/

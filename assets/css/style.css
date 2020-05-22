@@ -998,7 +998,7 @@ img {
   font-style: italic;
   letter-spacing: 0.5px;
   line-height: 1.8;
-  margin-bottom: 0;
+  margin-bottom:20px;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-img {
   display: inline;
