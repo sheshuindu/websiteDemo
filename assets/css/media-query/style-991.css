@@ -9,7 +9,6 @@
   }
   #mu-menu .navbar-header .navbar-brand {
     font-size: 24px;
-    padding-top: 10px;
   }
 
   /*==================slider====================================*/
@@ -44,10 +43,6 @@
 
 /*=======================about us==========================*/
 
-  #mu-about-us {
-    padding: 40px 0;
-  }
-
   #mu-about-us .mu-about-us-area .mu-about-us-right {
     margin-top: 30px;
   }
@@ -74,12 +69,8 @@
 
   /*========================features=====================*/
 
-  #mu-features {
-    padding-bottom:40px 0;
-  }
-
   .mu-title p {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   /*==================================latest courses===============================*/
@@ -87,12 +78,6 @@
  /* #mu-latest-courses {
     padding: 60px 0 90px;
   }*/
-
-  #mu-latest-courses{
-    padding-top: 40px;
-    padding-bottom: 60px;
-  }
-
   .mu-latest-course-single{
     width: 100%;
   }
@@ -107,7 +92,7 @@
   }
 
   #mu-our-teacher {
-    padding: 40px 0;
+    padding: 10px 0 0 0;
     width: 100%;
   }
   #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content{
@@ -169,7 +154,7 @@
   }
   /*================================footer=====================*/
   #mu-footer .mu-footer-top{
-    padding: 40px;
+    padding: 20px;
   }
 
   #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget{

@@ -70,6 +70,22 @@
     margin-bottom: 5px;
   }
 
+  #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item {
+    display:block;
+    float: left;
+    width: 100%;
+    outline: none;
+  }
+  #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote {
+    border-radius: 4px;
+    float: left;
+    padding: 60px 0 ;
+    width: 100%;
+  }
+  .mu-testimonial-detail{
+    width: 100%;
+  }
+
   /*===================================social media icon===========================*/
   .social-media-icon{
     max-width:40px;

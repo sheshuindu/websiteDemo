@@ -472,8 +472,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding-top:60px;
-  padding-bottom: 40px;
+  padding:20px;
 }
 #mu-about-us strong{
   margin-bottom:50px;
@@ -628,7 +627,6 @@ img {
   display: inline;
   float: left;
   padding-top: 0px;
-  padding-bottom: 20px;
   width: 100%;
 }
 #mu-features .mu-features-area {
@@ -687,8 +685,8 @@ img {
   background-color: #03989e;
   display: inline;
   float: left;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top:20px;
+  padding-bottom:50px;
   width: 100%;
 }
 #mu-latest-courses .mu-latest-courses-area {
@@ -823,7 +821,7 @@ img {
 #mu-our-teacher {
   display: inline;
   float: left;
-  padding: 60px 0;
+  padding:40px 0 0 0;
   width: 100%;
 }
 #mu-our-teacher .mu-our-teacher-area {
@@ -933,7 +931,7 @@ img {
   background-size: cover;
   display: inline;
   float: left;
-  padding: 50px 0;
+  padding:50px 0;
   position: relative;
   width: 100%;
   z-index: 10;
@@ -963,18 +961,22 @@ img {
   border-radius: 10px;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item {
-  display: inline;
+  display: flex;
   float: left;
   width: 100%;
   outline: none;
 }
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote {
   border-radius: 4px;
-  display: inline;
   float: left;
-  padding: 60px 30px;
-  width: 100%;
+  padding: 40px 0 ;
+  width: 80%;
 }
+.mu-testimonial-detail{
+  width: 20%;
+  padding: 80px 30px 0 0;
+}
+
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote blockquote {
   border: none;
   text-align: center;
@@ -1036,7 +1038,6 @@ img {
 #mu-testimonial .mu-testimonial-area .mu-testimonial-content .slick-dots li button {
   display: none;
 }
-
 
 /*==================
  FROM BLOG SECTION
@@ -2063,6 +2064,7 @@ img {
   right: 0px;
   top:30vh;
   width: 25px;
+  background-color: #089191;
   border-bottom-left-radius:8px;
   border-top-left-radius: 8px;
   z-index: 10;
