@@ -1,0 +1,29 @@
+.mu-contact-background{
+    width: 100%;
+    opacity:0.4;
+}
+
+.mu-contact-banner{
+    width: 100%;
+}
+
+.mu-contact-detail .fa{
+    font-size: xx-large;
+}
+
+.mu-contact-detail{
+    position: absolute;
+    top:40%;
+    width: 100%;
+}
+
+.mu-contact-detail li{
+    text-align: center;
+    color: #000;
+}
+
+.mu-contact-detail span{
+    font-size: small;
+    text-align: center;
+    color: #000;
+}
