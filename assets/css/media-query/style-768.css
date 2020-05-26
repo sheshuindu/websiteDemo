@@ -122,4 +122,9 @@
     padding: 0;
     width: 30px;
 }
+.mu-contact-background img{
+  height: 300px;
+  width: auto;
+  overflow: hidden;
+}
 

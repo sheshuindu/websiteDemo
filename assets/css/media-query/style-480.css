@@ -73,6 +73,11 @@
     width:23px;
   }
 
+  /*==========================bread crumbs=============================*/
+  #mu-page-breadcrumb{
+    padding: 10px;
+  }
+
   /*=================================services=============================*/
 
   #mu-service .mu-service-area .mu-service-single {
@@ -179,4 +184,13 @@
   }
   .mu-top-social-nav img{
     max-width:35px;
+  }
+
+  /*================================
+              contact page
+  =================================*/
+  .mu-contact-background img{
+    height: 200px;
+    width: auto;
+    overflow: hidden;
   }
