@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Varsity | Course</title>
+    <title>LETFIX TECHNOLOGIES </title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/logo.jpeg" type="image/x-icon">
 
     <!-- Font awesome -->
     <link href="assets/css/font-awesome.css" rel="stylesheet">
@@ -18,11 +18,20 @@
     <!-- Fancybox slider -->
     <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
     <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">  
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">          
 
     <!-- Main style sheet -->
-    <link href="assets/css/style.css" rel="stylesheet">    
+    <link href="assets/css/style.css" rel="stylesheet">
 
+    <!-- Custom style sheet -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!--responsive style sheet-->
+    <link href="assets/css/media-query/style-1199.css" media="(max-width:1199px)" rel="stylesheet">
+    <link href="assets/css/media-query/style-991.css" media="(max-width:991px)" rel="stylesheet">
+    <link href="assets/css/media-query/style-768.css" media="(max-width:768px)" rel="stylesheet">
+    <link href="assets/css/media-query/style-480.css" media="(max-width:480px)" rel="stylesheet">
+    <link href="assets/css/media-query/style-360.css" media="(max-width:360px)" rel="stylesheet">
    
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -36,55 +45,18 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Freshchat account integration -->
+    <script src="https://wchat.freshchat.com/js/widget.js"></script>
+
   </head>
-  <body>
+  <body> 
+
   <!--START SCROLL TOP BUTTON -->
-    <a class="scrollToTop" href="#">
+    <!-- <a class="scrollToTop" href="#">
       <i class="fa fa-angle-up"></i>      
-    </a>
+    </a> -->
   <!-- END SCROLL TOP BUTTON -->
 
-  <!-- Start header  -->
-  <header id="mu-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12">
-          <div class="mu-header-area">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <div class="mu-header-top-left">
-                  <div class="mu-top-email">
-                    <i class="fa fa-envelope"></i>
-                    <a href="mailto:letfixtechnologies@gmail.com"><span>letfixtechnologies@gmail.com</span></a>
-                  </div>
-                  <div class="mu-top-phone">
-                    <i class="fa fa-phone"></i>
-                    <span>(568) 986 652</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <div class="mu-header-top-right">
-                  <nav>
-                    <ul class="mu-top-social-nav">
-                      <li><a href="https://m.facebook.com/Letfix-Technologies-102835554759316/"><span class="fa fa-facebook"></span></a></li>
-                      <li><a href="https://twitter.com/LetfixT"><span class="fa fa-twitter"></span></a></li>
-                      <li><a href="mailto:letfixtechnologies@gmail.com"><span class="fa fa-envelope"></span></a></li>
-                      <li><a href="https://www.linkedin.com/in/letfix-technologies-a645091a9"><span class="fa fa-linkedin"></span></a></li>
-                      <li><a href="https://www.youtube.com/channel/UCHUr2khylXdmffPdq9nByhg"><span class="fa fa-youtube"></span></a></li>
-                      <li><a href="https://www.instagram.com/letfix_technologies"><span class="fa fa-instagram"></span></a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- End header  -->
-  <!-- Start menu -->
   <section id="mu-menu">
     <nav class="navbar navbar-default" role="navigation">  
       <div class="container">
@@ -98,32 +70,25 @@
           </button>
           <!-- LOGO -->              
           <!-- TEXT BASED LOGO -->
-          <a class="navbar-brand" href="index.html"><i class="fa fa-university"></i><span>Varsity</span></a>
+          <a class="navbar-brand" href="index.html"><span><img class="logo__max-height" id="logo" src="assets/img/logo.jpeg" title="LETFIX TECHNOLOGIES" alt="LETFIX TECHNOLOGIES"></span></a>
           <!-- IMG BASED LOGO  -->
-          <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a> -->
+          <a class="navbar-brand" id="navbar-title" href="index.html"><span id="navbar-title-letfix">LETFIX </span><span id="navbar-title-technologies">Technologies</span></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
             <li><a href="index.html">Home</a></li>            
-            <li class="dropdown active">
-              <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Course <span class="fa fa-angle-down"></span></a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="course.html">Course Archive</a></li>                
-                <li><a href="course-detail.html">Course Detail</a></li>                
+                <li><a href="services.html">Industrial Automation & Robotics</a></li>                
+                <li><a href="course-detail.html">IT Services</a></li>                
               </ul>
             </li>           
-            <li><a href="gallery.html">Gallery</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="fa fa-angle-down"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="blog-archive.html">Blog Archive</a></li>                
-                <li><a href="blog-single.html">Blog Single</a></li>                
-              </ul>
-            </li>            
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="404.html">404 Page</a></li>               
+            <!--<li><a href="gallery.html">Gallery</a></li>-->
+            
+            <li><a href="contact.html">Contact</a></li>              
             <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
-          </ul>                   
+          </ul>                     
         </div><!--/.nav-collapse -->        
       </div>     
     </nav>
@@ -137,7 +102,7 @@
         <div class="row">
           <div class="col-md-12">            
             <form class="mu-search-form">
-              <input type="search" placeholder="Type Your Keyword(s) & Hit Enter">
+              <input type="search" placeholder="Type Your Keyword(s) & Hit Enter">              
             </form>
           </div>
         </div>
@@ -145,268 +110,218 @@
     </div>
   </div>
   <!-- End search box -->
- <!-- Page breadcrumb -->
- <section id="mu-page-breadcrumb">
-   <div class="container">
-     <div class="row">
-       <div class="col-md-12">
-         <div class="mu-page-breadcrumb-area">
-           <h2>Course</h2>
-           <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>            
-            <li class="active">Course</li>
-          </ol>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
- <!-- End breadcrumb -->
- <section id="mu-course-content">
-   <div class="container">
-     <div class="row">
-       <div class="col-md-12">
-         <div class="mu-course-content-area">
-            <div class="row">
-              <div class="col-md-9">
-                <!-- start course content container -->
-                <div class="mu-course-container">
-                  <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                    <div class="mu-latest-course-single">
-                      <figure class="mu-latest-course-img">
-                        <a href="#"><img src="assets/img/courses/1.jpg" alt="img"></a>
-                        <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Drawing</a>
-                          <span><i class="fa fa-clock-o"></i>90Days</span>
-                        </figcaption>
-                      </figure>
-                      <div class="mu-latest-course-single-content">
-                        <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
-                        <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <span class="mu-course-price" href="#">$165.00</span>
-                        </div>
-                      </div>
-                    </div> 
-                  </div>                  
-                  <div class="col-md-6 col-sm-6">
-                    <div class="mu-latest-course-single">
-                      <figure class="mu-latest-course-img">
-                        <a href="#"><img src="assets/img/courses/2.jpg" alt="img"></a>
-                        <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Engineering </a>
-                          <span><i class="fa fa-clock-o"></i>75Days</span>
-                        </figcaption>
-                      </figure>
-                      <div class="mu-latest-course-single-content">
-                        <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
-                        <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <span class="mu-course-price" href="#">$165.00</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                    <div class="mu-latest-course-single">
-                      <figure class="mu-latest-course-img">
-                        <a href="#"><img src="assets/img/courses/1.jpg" alt="img"></a>
-                        <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Drawing</a>
-                          <span><i class="fa fa-clock-o"></i>90Days</span>
-                        </figcaption>
-                      </figure>
-                      <div class="mu-latest-course-single-content">
-                        <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
-                        <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <span class="mu-course-price" href="#">$165.00</span>
-                        </div>
-                      </div>
-                    </div> 
-                  </div>                  
-                  <div class="col-md-6 col-sm-6">
-                    <div class="mu-latest-course-single">
-                      <figure class="mu-latest-course-img">
-                        <a href="#"><img src="assets/img/courses/2.jpg" alt="img"></a>
-                        <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Engineering </a>
-                          <span><i class="fa fa-clock-o"></i>75Days</span>
-                        </figcaption>
-                      </figure>
-                      <div class="mu-latest-course-single-content">
-                        <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
-                        <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <span class="mu-course-price" href="#">$165.00</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                    <div class="mu-latest-course-single">
-                      <figure class="mu-latest-course-img">
-                        <a href="#"><img src="assets/img/courses/1.jpg" alt="img"></a>
-                        <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Drawing</a>
-                          <span><i class="fa fa-clock-o"></i>90Days</span>
-                        </figcaption>
-                      </figure>
-                      <div class="mu-latest-course-single-content">
-                        <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
-                        <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <span class="mu-course-price" href="#">$165.00</span>
-                        </div>
-                      </div>
-                    </div> 
-                  </div>                  
-                  <div class="col-md-6 col-sm-6">
-                    <div class="mu-latest-course-single">
-                      <figure class="mu-latest-course-img">
-                        <a href="#"><img src="assets/img/courses/2.jpg" alt="img"></a>
-                        <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Engineering </a>
-                          <span><i class="fa fa-clock-o"></i>75Days</span>
-                        </figcaption>
-                      </figure>
-                      <div class="mu-latest-course-single-content">
-                        <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
-                        <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <span class="mu-course-price" href="#">$165.00</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-                </div>
-                <!-- end course content container -->
-                <!-- start course pagination -->
-                <div class="mu-pagination">
-                  <nav>
-                    <ul class="pagination">
-                      <li>
-                        <a href="#" aria-label="Previous">
-                          <span class="fa fa-angle-left"></span> Prev 
-                        </a>
-                      </li>
-                      <li class="active"><a href="#">1</a></li>
-                      <li><a href="#">2</a></li>
-                      <li><a href="#">3</a></li>
-                      <li><a href="#">4</a></li>
-                      <li><a href="#">5</a></li>
-                      <li>
-                        <a href="#" aria-label="Next">
-                         Next <span class="fa fa-angle-right"></span>
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-                <!-- end course pagination -->
-              </div>
-              <div class="col-md-3">
-                <!-- start sidebar -->
-                <aside class="mu-sidebar">
-                  <!-- start single sidebar -->
-                  <div class="mu-single-sidebar">
-                    <h3>Categories</h3>
-                    <ul class="mu-sidebar-catg">
-                      <li><a href="#">Web Design</a></li>
-                      <li><a href="">Web Development</a></li>
-                      <li><a href="">Math</a></li>
-                      <li><a href="">Physics</a></li>
-                      <li><a href="">Camestry</a></li>
-                      <li><a href="">English</a></li>
-                    </ul>
-                  </div>
-                  <!-- end single sidebar -->
-                  <!-- start single sidebar -->
-                  <div class="mu-single-sidebar">
-                    <h3>Popular Course</h3>
-                    <div class="mu-sidebar-popular-courses">
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="#">
-                            <img class="media-object" src="assets/img/courses/1.jpg" alt="img">
-                          </a>
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading"><a href="#">Medical Science</a></h4>                      
-                          <span class="popular-course-price">$200.00</span>
-                        </div>
-                      </div>
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="#">
-                            <img class="media-object" src="assets/img/courses/2.jpg" alt="img">
-                          </a>
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading"><a href="#">Web Design</a></h4>                      
-                          <span class="popular-course-price">$250.00</span>
-                        </div>
-                      </div>
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="#">
-                            <img class="media-object" src="assets/img/courses/3.jpg" alt="img">
-                          </a>
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading"><a href="#">Health & Sports</a></h4>                      
-                          <span class="popular-course-price">$90.00</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- end single sidebar -->
-                  <!-- start single sidebar -->
-                  <div class="mu-single-sidebar">
-                    <h3>Archives</h3>
-                    <ul class="mu-sidebar-catg mu-sidebar-archives">
-                      <li><a href="#">May <span>(25)</span></a></li>
-                      <li><a href="">June <span>(35)</span></a></li>
-                      <li><a href="">July <span>(20)</span></a></li>
-                      <li><a href="">August <span>(125)</span></a></li>
-                      <li><a href="">September <span>(45)</span></a></li>
-                      <li><a href="">October <span>(85)</span></a></li>
-                    </ul>
-                  </div>
-                  <!-- end single sidebar -->
-                  <!-- start single sidebar -->
-                  <div class="mu-single-sidebar">
-                    <h3>Tags Cloud</h3>
-                    <div class="tag-cloud">
-                      <a href="#">Health</a>
-                      <a href="#">Science</a>
-                      <a href="#">Sports</a>
-                      <a href="#">Mathematics</a>
-                      <a href="#">Web Design</a>
-                      <a href="#">Admission</a>
-                      <a href="#">History</a>
-                      <a href="#">Environment</a>
-                    </div>
-                  </div>
-                  <!-- end single sidebar -->
-                </aside>
-                <!-- / end sidebar -->
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
 
+  <!-- Start latest course section -->
+  <section id="mu-latest-courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="mu-latest-courses-area">
+            <!-- Start Title -->
+            <div class="mu-title">
+              <h2>Courses</h2>
+              <p>LETFIX provides the opportunity to learn new technologies.</p>
+            </div>
+            <!-- End Title -->
+            <!-- Start latest course content -->
+            <div id="mu-latest-course-slide" class="mu-latest-courses-content">
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single course-div-set-height">
+                  <figure class="mu-latest-course-img course-img-set-height">
+                    <a href="#"><img src="assets/img/courses/robotics.jpg" alt="img"></a>
+                    <!--<figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">ROBOTICS </a>
+                      <span><i class="fa fa-clock-o"></i>90Days</span>
+                    </figcaption>-->
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><b>ROBOTICS</b></h4>
+                    <p>LETFIX provides a platform to learn, design, construct, operate and integrate 
+                      robots for replicating human actions and to reduce the rate of human work. </p>
+                    <!-- <div class="mu-latest-course-single-contbottom"> -->
+                      <!-- <a class="mu-course-details" href="#">Details</a> -->
+                      <!-- <span class="mu-course-price" href="#">$165.00</span> -->
+                    <!-- </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4  col-xs-12">
+                <div class="mu-latest-course-single  course-div-set-height">
+                  <figure class="mu-latest-course-img  course-img-set-height">
+                    <a href="iot_course.html"><img src="assets/img/courses/iot.jpg" alt="img"></a>
+                    <!-- <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">IOT</a>
+                      <span><i class="fa fa-clock-o"></i>75Days</span> 
+                    </figcaption>-->
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><b>INTERNET OF THINGS</b></h4>
+                    <p>LETFIX provides platform to learn, design, construct, operate and
+                       integrate microcontroller with Internet of Things.
+                    </p>
+                    <!-- <div class="mu-latest-course-single-contbottom"> -->
+                      <!-- <a class="mu-course-details" href="#">Details</a> -->
+                      <!-- <span class="mu-course-price" href="#">$165.00</span> -->
+                    <!-- </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single course-div-set-height">
+                  <figure class="mu-latest-course-img course-img-set-height">
+                    <a href="building_drones_course.html"><img src="assets/img/courses/building_drones.jpg" alt="img"></a>
+                    <!--<figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">BUILDING DRONES</a>
+                      <span><i class="fa fa-clock-o"></i>45Days</span> 
+                    </figcaption>-->
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><b>BUILDING DRONES</b></h4>
+                    <p>LETFIX provides a platform to learn, design, construct, operate and integrate 
+                       drones from scratch.
+                    </p>
+                    <!-- <div class="mu-latest-course-single-contbottom"> -->
+                      <!-- <a class="mu-course-details" href="#">Details</a> -->
+                      <!-- <span class="mu-course-price" href="#">$165.00</span> -->
+                    <!-- </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single  course-div-set-height">
+                  <figure class="mu-latest-course-img  course-img-set-height">
+                    <a href="mobile_application_development_course.html"><img src="assets/img/courses/mobile_application_development.jpg" alt="img"></a>
+                    <!--<figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">MOBILE APPLICATION DEVELOPMENT</a>
+                     <span><i class="fa fa-clock-o"></i>45Days</span>
+                    </figcaption>-->
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><b>MOBILE APPLICATION DEVELOPMENT</b></h4>
+                    <p>LETFIX provides a platform to learn and develop mobile application with 
+                      expected designs using advanced tools and techniques.
+                    </p>
+                    <!-- <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                      <span class="mu-course-price" href="#">$165.00</span>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single  course-div-set-height">
+                  <figure class="mu-latest-course-img  course-img-set-height">
+                    <a href="industrial_automation_course.html"><img src="assets/img/courses/industrial_automation.jpg" alt="img"></a>
+                    <!--<figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">INDUSTRIAL AUTOMATION</a>
+                      <span><i class="fa fa-clock-o"></i>45Days</span>
+                    </figcaption>-->
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><b>INDUSTRIAL AUTOMATION</b></h4>
+                    <p>LETFIX provides a platform to learn, design and integrate control panels for special 
+                      purpose machines.</p>
+                    <!-- <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                      <span class="mu-course-price" href="#">$165.00</span>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single  course-div-set-height">
+                  <figure class="mu-latest-course-img  course-img-set-height">
+                    <a href="#"><img src="assets/img/courses/web_development.jpg" alt="img"></a>
+                    <!--<figcaption class="mu-latest-course-imgcaption">
+                      <a href="#"> WEB DESIGNING</a>
+                      <span><i class="fa fa-clock-o"></i>75Days</span>
+                    </figcaption>-->
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><b>WEB DESIGNING</b></h4>
+                    <p>LETFIX provides innovative solutions to our clients with expected quality and 
+                      also a platform to learn and develop websites.
+                    </p>
+                    <!-- <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                      <span class="mu-course-price" href="#">$165.00</span>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single  course-div-set-height">
+                  <figure class="mu-latest-course-img  course-img-set-height">
+                    <a href="software_development_course.html"><img src="assets/img/courses/software_development.jpg" alt="img"></a>
+                    <!--<figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">SOFTWARE DEVELOPMENT</a>
+                      <span><i class="fa fa-clock-o"></i>45Days</span>
+                    </figcaption>-->
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><b>SOFTWARE DEVELOPMENT</b></h4>
+                    <p>LETFIX provides a platform to learn and develop software by providing 
+                      optimum solutions using the latest technologies.
+                    </p>
+                    <!-- <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                      <span class="mu-course-price" href="#">$165.00</span>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4  col-xs-12">
+                <div class="mu-latest-course-single  course-div-set-height">
+                  <figure class="mu-latest-course-img  course-img-set-height">
+                    <a href="data_science_main_course.html"><img src="" alt="img"></a>
+                    <!-- <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">IOT</a>
+                      <span><i class="fa fa-clock-o"></i>75Days</span> 
+                    </figcaption>-->
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><b>DATA SCIENCE</b></h4>
+                    <p></p>
+                    <!-- <div class="mu-latest-course-single-contbottom"> -->
+                      <!-- <a class="mu-course-details" href="#">Details</a> -->
+                      <!-- <span class="mu-course-price" href="#">$165.00</span> -->
+                    <!-- </div> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4  col-xs-12">
+                <div class="mu-latest-course-single  course-div-set-height">
+                  <figure class="mu-latest-course-img  course-img-set-height">
+                    <a href="dot_net_main_course.html"><img src="" alt="img"></a>
+                    <!-- <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">IOT</a>
+                      <span><i class="fa fa-clock-o"></i>75Days</span> 
+                    </figcaption>-->
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><b>.NET</b></h4>
+                    <p></p>
+                    <!-- <div class="mu-latest-course-single-contbottom"> -->
+                      <!-- <a class="mu-course-details" href="#">Details</a> -->
+                      <!-- <span class="mu-course-price" href="#">$165.00</span> -->
+                    <!-- </div> -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          
+            <!-- End latest course content -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End latest course section -->
+  
   <!-- Start footer -->
   <footer id="mu-footer">
     <!-- start footer top -->
@@ -414,32 +329,32 @@
       <div class="container">
         <div class="mu-footer-top-area">
           <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
               <div class="mu-footer-widget">
                 <h4>Information</h4>
                 <ul>
-                  <li><a href="detail.html">About Us</a></li>
-                  <li><a href="">Features</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <!--<li><a href="">Features</a></li>-->
                   <li><a href="">Course</a></li>
                   <li><a href="">Event</a></li>
-                  <li><a href="">Sitemap</a></li>
+                  <!--<li><a href="">Sitemap</a></li>-->
                   <li><a href="">Term Of Use</a></li>
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
               <div class="mu-footer-widget">
                 <h4>Student Help</h4>
                 <ul>
                   <li><a href="">Get Started</a></li>
                   <li><a href="#">My Questions</a></li>
                   <li><a href="">Download Files</a></li>
-                  <li><a href="">Latest Course</a></li>
+                  <!--<li><a href="">Latest Course</a></li>-->
                   <li><a href="">Academic News</a></li>                  
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
               <div class="mu-footer-widget">
                 <h4>News letter</h4>
                 <p>Get latest update, news & academic offers</p>
@@ -449,19 +364,20 @@
                 </form>               
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
               <div class="mu-footer-widget">
                 <h4>Contact</h4>
                 <address>
-                  <p>P.O. Box 320, Ross, California 9495, USA</p>
-                  <p>Phone: (415) 453-1568 </p>
-                  <p>Website: www.markups.io</p>
+                  <p> 68, Perumalagaram Salai, Perumalagaram, Thiruverkadu, Chennai, Tamil Nadu 600077</p>
+                  <p>Phone: 7358450114 </p>
+                  <p>Website: www.gridtechnologies.info</p>
                   <p>Email:letfixtechnologies@gmail.com</p>
                 </address>
               </div>
             </div>
           </div>
         </div>
+        <a href="https://icons8.com/icon/37246/gmail" style="opacity: 0;">All icons by Icons8</a>
       </div>
     </div>
     <!-- end footer top -->
@@ -469,7 +385,7 @@
     <div class="mu-footer-bottom">
       <div class="container">
         <div class="mu-footer-bottom-area">
-          <p>&copy; All Right Reserved. Designed by <a href="http://www.markups.io/" rel="nofollow">MarkUps.io</a></p>
+          <p>&copy; All Right Reserved. Designed by <a href="#" rel="nofollow">LETFIX TECHNOLOGIES</a></p>
         </div>
       </div>
     </div>
@@ -477,10 +393,20 @@
   </footer>
   <!-- End footer -->
 
-
-
-
-
+  <!--Start Social media-->
+  <div class="mu-header-top-right">
+    <nav>
+      <ul class="mu-top-social-nav">
+        <li><a href="mailto:letfixtechnologies@gmail.com" title="Mail"><img class="social-media-icon" src="https://img.icons8.com/color/48/000000/gmail.png"/></a></li>
+        <li><a href="https://m.facebook.com/Letfix-Technologies-102835554759316/" title="Facebook"><img class="social-media-icon" src="https://img.icons8.com/color/48/000000/facebook.png"/></a></li>
+        <li><a href="https://twitter.com/LetfixT" title="Twitter"><img class="social-media-icon" src="https://img.icons8.com/color/48/000000/twitter.png"/></a></li>
+        <li><a href="https://www.linkedin.com/in/letfix-technologies" title="LinkedIn"><img class="social-media-icon" src="https://img.icons8.com/color/48/000000/linkedin.png"/></a></li>
+        <li><a href="https://www.youtube.com/channel/UCHUr2khylXdmffPdq9nByhg" title="YouTube"><img class="social-media-icon" src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a></li>
+        <li><a href="https://www.instagram.com/letfix_technologies" title="Instagram"><img class="social-media-icon" src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a></li>
+      </ul>
+    </nav>
+  </div>
+  <!--End Social media-->
   
   <!-- jQuery library -->
   <script src="assets/js/jquery.min.js"></script>  
@@ -495,7 +421,8 @@
   <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
   <!-- Add fancyBox -->        
   <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
-
+  
+  
   <!-- Custom js -->
   <script src="assets/js/custom.js"></script> 
 
