@@ -101,5 +101,11 @@
 .mu-contact-detail img{
     text-align: center;
     padding: 0;
-    width: 64px;
+    width: 58px;
+}
+
+.mu-contact-detail img:hover{
+  text-align: center;
+  padding: 0;
+  width: 64px;
 }

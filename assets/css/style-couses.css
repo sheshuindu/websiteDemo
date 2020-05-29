@@ -70,6 +70,17 @@
   font-weight: bold;
 }
 
+/*===================================syllabus=======================================*/
+.panel-group .panel-heading{
+  background-color: #b8e7e9;
+  border-radius: 4px;
+}
+
+.panel-group .panel{
+  margin: 5px;
+  border-bottom: 1px solid #b8e7e9;
+}
+
 /*===================================related courses================================*/
 .mu-latest-course-single-content .mu-related-item-area #mu-related-item-slide .slick-prev, .mu-related-item .mu-related-item-area #mu-related-item-slide .slick-next{
   width: 50px;
