@@ -45,7 +45,7 @@
 }
 
 #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul{
-  padding:20px;
+  padding-left:50px;
 }
 
 #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content .bullet li::before{

@@ -43,7 +43,7 @@ snippet from Animate.css - zoomIn effect
 .panel-heading{
     border-radius: 0px;
     color: white;
-    padding: 25px 15px;
+    padding: 20px 15px;
 }
 .panel-custom>.panel-heading{
     background-color: #03989e;
