@@ -34,7 +34,7 @@
   border-radius: 100%;
 }
 
-#percentage{
+.percentage{
   color: #03989e;
 }
 
@@ -72,15 +72,18 @@
 
 /*===================================syllabus=======================================*/
 .panel-group .panel-heading{
-  background-color: #b8e7e9;
+  background-color: #03989e;
   border-radius: 4px;
 }
 
 .panel-group .panel{
   margin: 5px;
-  border-bottom: 1px solid #b8e7e9;
+  border-bottom: 1px solid #03989e;
 }
 
+/*.panel-default > .panel-heading{
+  color: aliceblue;
+}*/
 /*===================================related courses================================*/
 .mu-latest-course-single-content .mu-related-item-area #mu-related-item-slide .slick-prev, .mu-related-item .mu-related-item-area #mu-related-item-slide .slick-next{
   width: 50px;
