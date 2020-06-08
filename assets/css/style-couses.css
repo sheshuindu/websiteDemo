@@ -38,6 +38,33 @@
   color: #03989e;
 }
 
+.sidebar-related-courses{
+  margin-top: 40px;
+}
+
+.sidebar-related-courses li{
+  margin-top: 20px;
+  font-weight:bold;
+}
+
+.sidebar-related-courses b{
+  padding-bottom: 10px;
+}
+
+
+.sidebar-related-courses #underline::after{
+  content: '';
+  height: 2px;
+  width: 20%;
+  background-color: #03989e;
+  position: absolute;
+}
+
+.sidebar-related-courses .fa{
+  float:right;
+  font-weight: bold;
+}
+
 /*===============================course overview===================*/
 
 #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content h4{
