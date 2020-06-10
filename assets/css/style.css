@@ -39,6 +39,10 @@ body {
   overflow-x: hidden;
 }
 
+p{
+  text-align: justify;
+}
+
 .no-padding {
   padding: 0;
 }
@@ -1130,6 +1134,14 @@ img {
 }
 .mu-blog-single-item .mu-blog-description a:hover, .mu-blog-single-item .mu-blog-description a:focus {
   color: #fff;
+}
+
+/*==================
+FOOTER SECTION
+====================*/
+
+.mu-footer-top p{
+  text-align: left;
 }
 
 /*==================
