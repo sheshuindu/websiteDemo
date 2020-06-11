@@ -39,12 +39,12 @@ body {
   overflow-x: hidden;
 }
 
-p{
-  text-align: justify;
-}
-
 .no-padding {
   padding: 0;
+}
+
+.justify{
+  text-align: justify;
 }
 
 .no-border {
