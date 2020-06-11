@@ -55,6 +55,10 @@ img{
   width: 100%;
 }
 
+.chatbox{
+  visibility: hidden;
+}
+
 /* MODULES - Individual site components */
 ul {
   padding: 0;

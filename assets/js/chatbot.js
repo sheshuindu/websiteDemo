@@ -95,3 +95,13 @@ function buildPopup(id, html) {
     popupelement = "<div class='popuptext' id='" + id + "'>" + html + "</div>";
     return popupelement;
 }
+
+document.getElementById('chatbox-button').addEventListener("click",function(){
+    document.getElementsByClassName('chatbox')[0].style.visibility="visible";
+    documentdocument.getElementById('chatbox-button').visibility="hidden";
+});
+
+document.getElementsByClassName('cancel-button')[0].addEventListener("click",function(){
+    document.getElementsByClassName('chatbox')[0].style.visibility="hidden";
+    documentdocument.getElementById('chatbox-button').visibility="visible";
+});
