@@ -125,3 +125,9 @@
   .mu-top-social-nav img{
     max-width:30px;
   }
+
+  /*============================chat box======================*/
+
+  .chatbox{
+    width:340px;
+  }
