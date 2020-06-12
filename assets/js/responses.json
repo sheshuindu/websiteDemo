@@ -105,6 +105,21 @@
         "Latest Courses": "Here are the courses...",
         "Latest Events": "Here are the events...",
         "Services": "Here are the services...",
-        "Gallery": "Data not available"
+        "Gallery": "Data not available",
+        "Data Science":"Sub courses of Data Science",
+        ".NET":"Sub courses of .NET",
+        "Robotics Process Automation":"Sub courses of Robotics Process Automation",
+        "Cloud computing":"Sub courses of Cloud computing",
+        "Data Warehousing":"Sub courses of Data Warehousing",
+        "Java":"Sub courses of Java",
+        "Database Administration":"Sub courses of Database Administration",
+        "DevOps":"Sub courses of DevOps",
+        "Digital Marketing":"Sub courses of Digital Marketing",
+        "Embedded Training":"Sub courses of Embedded Training",
+        "Hardware and Networking":"Sub courses of Hardware and Networking",
+        "Mobile Application Development":"Sub courses of Mobile Application Development",
+        "Software Development":"Sub courses of Software Development",
+        "Scripting Training":"Sub courses of Scripting Training",
+        "Software Testing":"Sub courses of Software Testing"
     }
 }

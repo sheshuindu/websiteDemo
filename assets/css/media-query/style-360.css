@@ -129,5 +129,9 @@
   /*============================chat box======================*/
 
   .chatbox{
-    width:340px;
+    width:320px;
+  }
+
+  .chatbox-button{
+    margin: 25px;
   }

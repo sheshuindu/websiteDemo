@@ -42,6 +42,7 @@ html, body {
     float: right;
     margin: 20px;
     font-size: larger;
+    color: white;
 }
 
 .bottom {
@@ -348,7 +349,7 @@ html, body {
       position: fixed;
       right: 0;
       bottom: 0;
-      background-color: #0094d4;
+      background-color:#03989e ;
       color: white;
       border-radius: 50%;
       text-align: center;
@@ -357,7 +358,7 @@ html, body {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   #chatbox-button:hover{
-    background-color:orange;
+    background-color:#545454;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
   }
   #chatbox-button span{
@@ -367,5 +368,5 @@ html, body {
       padding: 20px;
   }
   .cancel-button:hover{
-    color: red;
+    color: #545454;
   }
