@@ -20,6 +20,17 @@
   margin-bottom: 0px;
 }
 
+/*=================================Enroll button=====================*/
+
+.enroll-button{
+  background-color: #03989e;
+  color: white;
+  border-radius: 5px;
+  float: right;
+  padding: 8px;
+  font-weight: bold;
+}
+
 /*================================sidebar===========================*/
 
 #sidebar-table  td{
