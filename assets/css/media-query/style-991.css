@@ -156,3 +156,10 @@
   #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget{
     padding-top: 10px;
   }
+
+  /*=====================Course page style==================*/
+
+.mu-related-item-area #mu-related-item-slide .mu-latest-course-single .mu-latest-course-img{
+  height: 150px;
+  overflow: hidden;
+}

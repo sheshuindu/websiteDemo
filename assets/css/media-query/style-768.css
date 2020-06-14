@@ -128,3 +128,11 @@
   overflow: hidden;
 }
 
+  /*=====================Course page style==================*/
+
+  .mu-related-item-area #mu-related-item-slide .mu-latest-course-single .mu-latest-course-img{
+    height: 120px;
+    overflow: hidden;
+  }
+  
+

@@ -123,14 +123,16 @@
   color: aliceblue;
 }*/
 /*===================================related courses================================*/
-.mu-latest-course-single-content .mu-related-item-area #mu-related-item-slide .slick-prev, .mu-related-item .mu-related-item-area #mu-related-item-slide .slick-next{
+.mu-latest-course-single .mu-related-item-area #mu-related-item-slide .slick-prev, .mu-related-item .mu-related-item-area #mu-related-item-slide .slick-next{
   width: 50px;
   height: 50px;
   background-color: #03989e;
 }
 
-.mu-latest-course-single-content .mu-related-item-area #mu-related-item-slide .slick-next, .mu-related-item .mu-related-item-area #mu-related-item-slide .slick-next{
+.mu-latest-course-single .mu-related-item-area #mu-related-item-slide .slick-next, .mu-related-item .mu-related-item-area #mu-related-item-slide .slick-next{
   width: 50px;
   height: 50px;
   background-color: #03989e;
 }
+
+

@@ -1387,6 +1387,12 @@ FOOTER SECTION
   width: 50px;
 }
 
+.mu-related-item-area #mu-related-item-slide .mu-latest-course-single .mu-latest-course-img{
+  height: 220px;
+  overflow: hidden;
+}
+
+
 /*==================
  BLOG PAGE
 ====================*/

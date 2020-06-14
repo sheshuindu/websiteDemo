@@ -32,3 +32,9 @@
   height: 180px;
   overflow: hidden;
 }
+
+/*=====================Course page style==================*/
+
+.mu-related-item-area #mu-related-item-slide .mu-latest-course-single .mu-latest-course-img{
+  height: 160px;
+}
