@@ -245,7 +245,7 @@ img {
   color: #fff;
 }
 #mu-menu .navbar-default .navbar-nav .open a:hover, #mu-menu .navbar-default .navbar-nav .open a:focus {
-  color: #fff;
+  color: #03989e;
 }
 
 #navbar-title{
@@ -1386,6 +1386,12 @@ FOOTER SECTION
   height: 50px;
   width: 50px;
 }
+
+.mu-related-item-area #mu-related-item-slide .mu-latest-course-single .mu-latest-course-img{
+  height: 220px;
+  overflow: hidden;
+}
+
 
 /*==================
  BLOG PAGE

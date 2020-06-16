@@ -2,7 +2,7 @@
     "buttongroup": {
         "default": ["Latest Courses", "Latest Events", "Gallery", "Services", "Contact Us"],
         "Latest Courses": ["Data Science", ".NET", "Robotics Process Automation", "Cloud computing", "Data Warehousing", "Java", "Database Administration", "DevOps", "Digital Marketing", "Embedded Training", "Hardware and Networking", "Mobile Application Development", "Software Development", "Scripting Training", "Software Testing"],
-        "Latest Events": ["Arduino Hackathon", "Raspberry Pi Hackathon", "Robo Race", "Robo War", "Smart Vehicles", "Automate"],
+        "Latest Events": ["Building a drone","Circuit debugging","Coding context","Electrical Wiring","Enginnering projects","Ethical hacking","Industrial Automation","Job fair","Line Follower", "Maze solver","Mobile App Development","PLC and HMI","Project Expo","Robo football","Robo war","Robotics","Technical paper presentation","Website Design"],
         "Services": ["Smart Home Automation", "Power Quality Auditing", "Smart Farming installation", "Troubleshoot", "Training & Mentoring", "Internships & Workshops", "Special Purpose Machines", "Guided vehicle", "6-axis Robots", "Biomedical Device", "Industrial automation", "Electrical service", "Solar service", "Electrical Equipment’s", "Computer Numerical Control - CNC"],
         "Data Science":["R programming","python","Machine learning","AI","clinical SAS","Deep learning","SAS"],
         ".NET":["C#","ASP.NET","VB.NET","SQL Server","Advanced.NET","MVC"],
@@ -22,6 +22,7 @@
     },
     "links": {
         "Gallery": "gallery.html",
+
         "R programming":"r_programming_course.html",
         "python":"python_programming_course.html",
         "Machine learning":"machine_learning_course.html",
@@ -92,7 +93,26 @@
         "ETL testing":"etl_testing_course.html",
         "QTP testing":"qtp_testing_course.html",
         "JMeter":"jmeter_testing_course.html",
-        "Load Runner":"load_runner_course.html"
+        "Load Runner":"load_runner_course.html",
+
+        "Building a drone":"building_drone_event.html",
+        "Circuit debugging":"circuit_debugging_event.html",
+        "Coding context":"coding_context_event.html",
+        "Electrical Wiring":"electrical_wiring_event.html",
+        "Enginnering projects":"engineering_project_event.html",
+        "Ethical hacking":"ethical_hacking_event.html",
+        "Industrial Automation":"industrial_automation_event.html",
+        "Job fair":"job_fair_event.html",
+        "Line Follower":"line_follower_event.html",
+        "Maze solver":"maze_solver_event.html",
+        "Mobile App Development":"mobile_app_development_event.html",
+        "PLC and HMI":"plc_hmi_event.html",
+        "Project Expo":"project_expo_event.html",
+        "Robo football":"robo_football_event.html",
+        "Robo war":"robo_war_event.html",
+        "Robotics":"robotics_event.html",
+        "Technical paper presentation":"technical_paper_presentation_event.html",
+        "Website Design":"web_design_event.html"
     },
     "popups": {
         "Contact Us": {

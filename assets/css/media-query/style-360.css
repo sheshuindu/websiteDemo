@@ -135,3 +135,11 @@
   .chatbox-button{
     margin: 25px;
   }
+
+   /*=====================Course page style==================*/
+
+   .mu-related-item-area #mu-related-item-slide .mu-latest-course-single .mu-latest-course-img{
+    height: 100px;
+    overflow: hidden;
+  }
+  
