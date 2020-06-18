@@ -261,6 +261,39 @@ img {
   text-transform: capitalize;
 }
 
+	.dropdown-menu .dropdown-toggle:after{
+	  	border-top: .3em solid transparent;
+	    border-right: 0;
+	    border-bottom: .3em solid transparent;
+	    border-left: .3em solid;
+	}
+	.dropdown-menu .dropdown-menu{
+		margin-left:0; margin-right: 0;
+	}
+	.dropdown-menu li{
+		position: relative;
+	}
+	.nav-item .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.nav-item .submenu-left{ 
+		right:100%; left:auto;
+	}
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+  }
+
+  .dropdown-menu{
+    width:fit-content;
+  }
+
+  .fa-angle-right{
+    padding: 4px;
+  }
+
 /* ALL SECTION */
 /*scrol to top*/
 .scrollToTop {
@@ -814,7 +847,7 @@ img {
 }
 
 .course-div-set-height{
-  height:380px;
+  height:410px;
 }
 
 .course-img-set-height{
