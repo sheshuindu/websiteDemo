@@ -216,11 +216,30 @@ jQuery(function($){
   /* ----------------------------------------------------------- */ 
   
   // for hover dropdown menu
-    jQuery('ul.nav li.dropdown').hover(function() {
+  /*  jQuery('ul.nav li.dropdown').hover(function() {
       jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(200);
     }, function() {
       jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(200);
-    });
+    });*/
+
+    // Prevent closing from click inside dropdown
+$(document).on('click', '.dropdown-menu', function (e) {
+  e.stopPropagation();
+});
+
+// make it as accordion for smaller screens
+if ($(window).width() < 992) {
+  $('.dropdown-menu a').click(function(e){
+    e.preventDefault();
+      if($(this).next('.submenu').length){
+        $(this).next('.submenu').toggle();
+      }
+      $('.dropdown').on('hide.bs.dropdown', function () {
+     $(this).find('.submenu').hide();
+  })
+  });
+}
+
 
     
   /* ----------------------------------------------------------- */
