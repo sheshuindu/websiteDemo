@@ -2058,3 +2058,15 @@ FOOTER SECTION
   height: 200px;
   overflow: hidden;
 }
+
+.mu-our-project-content .row .col-md-4 .mu-our-teacher-single{
+  margin-top: 20px;
+}
+
+.mu-our-project-content .row .col-md-4 .mu-our-teacher-single .mu-ourteacher-single-content{
+  padding: 10px;
+}
+
+.mu-our-project-content .row .col-md-4 .mu-our-teacher-single .mu-ourteacher-single-content h4 b{
+  line-height: 1.2em;
+}
