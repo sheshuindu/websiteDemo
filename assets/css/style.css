@@ -2051,3 +2051,10 @@ FOOTER SECTION
 
 
 
+/*===================project page=======================*/
+
+
+.mu-our-project-content .row .col-md-4 .mu-our-teacher-single .mu-our-teacher-img{
+  height: 200px;
+  overflow: hidden;
+}
