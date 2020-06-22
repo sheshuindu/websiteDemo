@@ -1,82 +1,22 @@
-#mu-contact {
-    display: inline;
-    float: left;
+#mu-contact .container{
     padding:0;
     width: 100%;
-    position: relative;
   }
-  /*#mu-contact .mu-contact-area {
-    display: inline;
-    float: left;
+
+  #mu-contact .row{
+    padding:0;
     width: 100%;
   }
-  #mu-contact .mu-contact-area .mu-contact-content {
-    display: inline;
-    float: left;
-    margin-top: 50px;
-    width: 100%;
-  }
-  #mu-contact .mu-contact-area .mu-contact-content .mu-contact-left {
-    display: inline;
-    float: left;
-    width: 100%;
-  }
-  #mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform {
-    display: inline;
-    float: left;
-    width: 100%;
-  }
-  #mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform .reply-title {
-    font-size: 25px;
-    margin-top: 0;
-  }
-  #mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform label {
-    display: block;
-  }
-  #mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform label .required {
-    color: #f60;
-  }
-  #mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform input[type="text"],
-  #mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform input[type="email"],
-  #mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform input[type="url"] {
-    border: none;
-    border: 1px solid #ddd;
-    color: #555;
-    margin-bottom: 10px;
-    height: 35px;
-    padding: 5px;
-    width: 100%;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-  #mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform textarea {
-    border: none;
-    border: 1px solid #ddd;
-    color: #555;
-    margin-bottom: 5px;
-    padding: 10px;
-    height: 150px;
-    width: 100%;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-  #mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform .form-submit input {
-    margin-top: 10px;
-  }
-  #mu-contact .mu-contact-area .mu-contact-content .mu-contact-right {
-    display: inline;
-    float: left;
-    width: 100%;
-  }
-  #mu-contact .mu-contact-area .mu-contact-content .mu-contact-right iframe {
-    height: 500px;
-  }*/
+
+#mu-contact-content{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.mu-contact-content {
+  width: 80vw;
+  margin: auto;
+}
 
 .mu-contact-background{
     width: 100%;
@@ -109,3 +49,65 @@
   padding: 0;
   width: 64px;
 }
+
+#mu-contact-content .mu-contact-content .row .col-md-6 .mu-contact-right iframe{
+  width: 80%;
+  height: 300px;
+  padding-bottom: 20px;
+}
+
+.main-contact-container{
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+
+.mapouter{
+  height:500px;
+  width:500px;
+  }
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:100%;
+}
+
+.mu-contact-address table td{
+  padding: 10px;
+  font-size: 1em;
+  vertical-align: top;
+}
+
+.mu-contact-address table td span{
+  color: #03989e;
+}
+
+.contactform table tr td{
+  vertical-align: top;
+}
+
+.contactform table tr td{
+  padding: 4px;
+}
+
+.contactform table{
+  width: 100%;
+}
+
+.contactform table tr td input,textarea{
+  width: 100%;
+  border: 2px solid #03989e;
+  border-radius: 4px;
+}
+
+.contactform .mu-post-btn{
+  background-color: #03989e;
+  color: white;
+  border-radius: 5px;
+}
+
+.contactform .mu-post-btn:hover{
+  background-color: #545454;
+  color: white;
+}
+
