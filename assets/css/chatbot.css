@@ -11,7 +11,7 @@ html, body {
     background-size: 32px;
     background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
+    position: fixed;
     right: 20px;
     bottom: 20px;
     cursor: pointer;
