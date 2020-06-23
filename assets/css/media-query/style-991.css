@@ -163,3 +163,17 @@
   height: 150px;
   overflow: hidden;
 }
+
+#mu-our-project .container .row .col-md-12 .mu-our-project-content .row{
+  height: auto;
+  overflow:auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#mu-our-project .container .row .col-md-12 .mu-our-project-content .row .col-md-5{
+  height: 200px;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

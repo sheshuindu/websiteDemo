@@ -2059,13 +2059,6 @@ FOOTER SECTION
   color: #fff;
 }
 
-/*=======================================================
-                       chat box
-=========================================================*/
-.d-hotline.h-btn{
-  position: fixed;
-}
-
 /*========================================================
                       social media
 =========================================================*/
@@ -2092,22 +2085,14 @@ FOOTER SECTION
 
 /*===================project page=======================*/
 
-
-.mu-our-project-content .row .col-md-4 .mu-our-teacher-single .mu-our-teacher-img{
+#mu-our-project .container .row .col-md-12 .mu-our-project-content .row{
   height: 200px;
   overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color:#f8f8f8;
 }
 
-.mu-our-project-content .row .col-md-4 .mu-our-teacher-single{
-  margin-top: 20px;
-}
 
-.mu-our-project-content .row .col-md-4 .mu-our-teacher-single .mu-ourteacher-single-content{
-  padding: 10px;
-}
-
-.mu-our-project-content .row .col-md-4 .mu-our-teacher-single .mu-ourteacher-single-content h4 b{
-  line-height: 1.2em;
-}
 
 
