@@ -2093,6 +2093,22 @@ FOOTER SECTION
   background-color:#f8f8f8;
 }
 
+/*===================terms of use========================*/
+
+.mu-term-area .row .col-md-12{
+  padding-left:8%;
+  padding-right: 8%;
+  text-align: justify;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 1.6em;
+  font-size:large;
+}
+
+.mu-term-area .row .col-md-12 ul{
+  padding-left:20px;
+}
+
 
 
 
