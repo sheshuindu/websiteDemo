@@ -231,10 +231,19 @@ background: #03989e;
 /*==================
  NAVBAR SECTION
 ====================*/
-#mu-menu {
+#mu-menu .container{
   display: inline;
   float: left;
   width: 100%;
+  z-index: 4;
+}
+
+.navbar-default .navbar-toggle{
+  z-index: 4;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+  z-index: 4;
 }
 #mu-menu .navbar-header .navbar-brand {
   color: #333;
@@ -1770,7 +1779,6 @@ FOOTER SECTION
 #mu-gallery {
   display: inline;
   float: left;
-  padding: 100px 0;
   width: 100%;
 }
 #mu-gallery .mu-gallery-area {
@@ -1786,7 +1794,6 @@ FOOTER SECTION
 #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top {
   display: inline;
   float: left;
-  margin-top: 50px;
   padding: 20px 0;
   width: 100%;
 }

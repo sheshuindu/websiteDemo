@@ -13,7 +13,7 @@
 /*================================description=========================*/
 
 #mu-course-content{
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 #mu-course-content .mu-course-content-area .mu-course-container .mu-latest-course-single{
@@ -83,7 +83,7 @@
 }
 
 #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul{
-  padding-left:50px;
+  padding-left:20px;
 }
 
 #mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content .bullet li::before{
@@ -138,5 +138,7 @@
   height: 50px;
   background-color: #03989e;
 }
+
+
 
 
