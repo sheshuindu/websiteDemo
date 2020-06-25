@@ -236,6 +236,8 @@ background: #03989e;
   float: left;
   width: 100%;
   z-index: 4;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .navbar-default .navbar-toggle{
