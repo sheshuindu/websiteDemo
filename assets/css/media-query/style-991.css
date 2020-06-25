@@ -167,8 +167,7 @@
 #mu-our-project .container .row .col-md-12 .mu-our-project-content .row{
   height: auto;
   overflow:auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding: 10px;
 }
 
 #mu-our-project .container .row .col-md-12 .mu-our-project-content .row .col-md-5{
