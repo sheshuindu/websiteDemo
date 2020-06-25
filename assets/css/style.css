@@ -236,6 +236,8 @@ background: #03989e;
   float: left;
   width: 100%;
   z-index: 4;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .navbar-default .navbar-toggle{
@@ -1856,7 +1858,7 @@ FOOTER SECTION
 #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-img {
   display: inline;
   float: left;
-  height: 220px;
+  /*height: 220px;*/
   overflow: hidden;
   width: 100%;
 }
@@ -1931,6 +1933,14 @@ FOOTER SECTION
 #mu-gallery .mu-gallery-area #mixit-container .mix {
   display: none;
 }
+
+#mu-gallery .mu-gallery-area .mu-gallery-body #mixit-container{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+
 /*==================
  ERROR PAGE
 ====================*/
