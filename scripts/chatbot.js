@@ -1,7 +1,7 @@
 var buttonclass = 'continuous'; // stacked, continuous classes
 var json;
 
-jsonload = $.getJSON('/scripts/responses.json', function() {
+jsonload = $.getJSON('scripts/responses.json', function() {
     json = jsonload.responseJSON;
     buildDefaultButtons();
 });
