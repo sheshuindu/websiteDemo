@@ -2082,7 +2082,7 @@ font-weight: bold;
   margin-top: 50px;
   margin-bottom: 50px;
   line-height: 1.6em;
-  font-size:large;
+  font-size:14px;
 }
 
 .mu-term-area .row .col-md-12 ul{
@@ -2461,6 +2461,20 @@ RESPONSIVE DESIGN
     ============*/
     #mu-page-breadcrumb{
       padding:35px 0;
-      }
+    }
+
+  /*===================
+  TERM OF USE PAGES
+===================*/
+
+.mu-term-area .row .col-md-12{
+  padding-left:8%;
+  padding-right: 8%;
+  text-align: justify;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 1.6em;
+  font-size:medium;
+}
 }
 
