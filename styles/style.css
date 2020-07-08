@@ -379,6 +379,40 @@ background: #03989e;
   transform: translateY(0) scale(1);
 }
 
+/*login*/
+
+.form-group>label {
+  font-weight: 500;
+}
+
+
+.icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#backButton {
+  display: none;
+}
+
+span {
+  vertical-align: middle;
+}
+
+form {
+  margin-bottom: 0;
+}
+
+.login-container,.register-container{
+  padding: 20px;
+}
+
+.btn-letfix{
+  margin-top: 10px;
+}
+
   /*==================
  SLIDER SECTION
 ====================*/
@@ -1308,7 +1342,7 @@ background: #03989e;
   font-size: 11pt;
 }
 
-.btn {
+.sendButton {
   width: 32px;
   height: 16px;
   background: url('../images/chatbox/send.png');
@@ -2105,7 +2139,6 @@ RESPONSIVE DESIGN
     padding-bottom:14px;
     padding-top: 14px;
   }
-
   /*SLIDER SECTION*/
 
   #mu-slider .mu-slider-single .mu-slider-img {
@@ -2161,10 +2194,11 @@ RESPONSIVE DESIGN
     font-size:22px;
     padding: 12px;
   }
+
+  /*SLIDER SECTION*/
   #mu-slider .mu-slider-single .mu-slider-img {
     height:280px;
   }
-  /*SLIDER SECTION*/
   #mu-slider .mu-slider-single .mu-slider-content h2{
     font-size: 25px;
     line-height: 50px;
@@ -2217,14 +2251,18 @@ RESPONSIVE DESIGN
   }
 
   #mu-menu .navbar .container{
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   #mu-menu .navbar-default .navbar-nav > li > a {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: small;
+  }
+
+  .btn-letfix{
+    margin-top: 14px;
   }
 
   /*SLIDER SECTION*/
@@ -2325,6 +2363,11 @@ RESPONSIVE DESIGN
 
   /*MENU SECTION*/
 
+  #mu-menu .navbar .container{
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
   #mu-menu .container{
     padding-left: 10%;
     padding-right: 10%;
@@ -2346,6 +2389,10 @@ RESPONSIVE DESIGN
   #mu-slider .slick-prev, #mu-slider .slick-next{
     width: 60px;
     height: 60px;
+  }
+
+  .btn-letfix{
+    margin-top: 20px;
   }
 
   /*SLIDER SECTION*/
