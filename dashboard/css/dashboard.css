@@ -1,0 +1,368 @@
+.feather {
+	width: 16px;
+	height: 16px;
+	vertical-align: text-bottom;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 100; /* Behind the navbar */
+	padding: 48px 0 0; /* Height of navbar */
+	box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767.98px) {
+	.sidebar {
+		top: 5rem;
+	}
+}
+
+.sidebar-sticky {
+	position: relative;
+	top: 0;
+	height: calc(100vh - 48px);
+	padding-top: 0.5rem;
+	overflow-x: hidden;
+	overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+	.sidebar-sticky {
+		position: -webkit-sticky;
+		position: sticky;
+	}
+}
+
+.sidebar .nav-link {
+	font-weight: 500;
+	color: #333;
+}
+
+.sidebar .nav-link .feather {
+	margin-right: 4px;
+	color: #999;
+}
+
+.sidebar .nav-link.active {
+	color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+	color: inherit;
+}
+
+.sidebar-heading {
+	font-size: 0.75rem;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-toggler {
+	top: 0.25rem;
+	right: 1rem;
+}
+
+.navbar .form-control {
+	padding: 0.75rem 1rem;
+	border-width: 0;
+	border-radius: 0;
+}
+
+.form-control-dark {
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-color: rgba(255, 255, 255, 0.1);
+}
+
+.form-control-dark:focus {
+	border-color: transparent;
+	box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
+}
+
+.nav-link {
+	font-size: 12pt;
+}
+
+.icon {
+	vertical-align: middle;
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+	user-select: none;
+}
+
+.text {
+	vertical-align: middle;
+	line-height: 0;
+}
+
+#navigation > .nav-item {
+	border-radius: 5px;
+	margin: 5px 10px 5px 10px;
+	line-height: 0;
+}
+
+#navigation > .nav-item:hover {
+	background-color: #e3f2fd;
+}
+
+#navigation > .nav-item:active {
+	background-color: silver;
+	user-select: none;
+}
+
+a {
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+.panelfont {
+	font-size: 12pt;
+}
+
+.userprofile {
+	width: 100%;
+	height: 128px;
+	padding: 10px;
+	display: list-item;
+}
+
+.profilepic {
+	width: 64px;
+	height: 64px;
+	border-radius: 64px;
+	margin: auto;
+	display: block;
+	pointer-events: none;
+}
+
+.profilename {
+	margin-top: 10px;
+	font-size: 12pt;
+	font-weight: 500;
+}
+
+label {
+	font-weight: 500;
+}
+
+#walleticon {
+	font-size: 64px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+#walletbalance {
+	display: inline-block;
+	font-size: 28pt;
+	vertical-align: middle;
+}
+
+.material-icons-outlined {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.sidebar .nav-link.active.active {
+	background-color: rgb(240, 240, 240);
+	color: #08a8b0;
+}
+
+.sidebar .nav-link {
+	border-radius: 5px;
+}
+
+.sidebar .nav-link:hover {
+	background-color: rgba(0, 128, 128, 0.1);
+}
+
+.card-img-top {
+	pointer-events: none;
+}
+
+/* Subscriptions */
+.card {
+	width: 20rem;
+	margin: 10px 10px 10px 0px;
+	display: inline-block;
+}
+
+#subscriptionsPanel {
+	margin-left: 0px;
+}
+
+#subscriptionsPanel > .card > .card-img-top {
+	height: 200px;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+/* LETFIX Theme for Bootstrap */
+
+.btn-outline-letfix {
+	color: #08a8b0;
+	border-color: #08a8b0;
+}
+
+.btn-outline-letfix:hover {
+	color: white;
+	border-color: #08a8b0;
+	background-color: #08a8b0;
+}
+
+.btn-outline-letfix:active,
+.btn-outline-letfix:focus {
+	color: #fff;
+	background-color: #08a8b0 !important;
+	border-color: #08a8b0 !important;
+	box-shadow: 0 0 0 0.2rem rgba(0, 128, 128, 0.3) !important;
+}
+
+.btn-letfix {
+	color: white;
+	background-color: #08a8b0;
+	border-color: #08a8b0;
+}
+
+.btn-letfix:hover {
+	color: white;
+	border-color: #077980;
+	background-color: #077980;
+}
+
+.btn-letfix:active,
+.btn-letfix:focus {
+	color: #fff;
+	background-color: #077980 !important;
+	border-color: #077980 !important;
+	box-shadow: 0 0 0 0.2rem rgba(0, 128, 128, 0.3) !important;
+}
+
+.btn-letfix-gray {
+	color: white;
+	background-color: #545454;
+	border-color: #545454;
+}
+
+.btn-letfix-gray:hover {
+	color: white;
+	border-color: #434343;
+	background-color: #434343;
+}
+
+.btn-letfix-gray:active,
+.btn-letfix-gray:focus {
+	color: #fff;
+	background-color: #545454 !important;
+	border-color: #545454 !important;
+	box-shadow: 0 0 0 0.2rem rgba(84, 84, 84, 0.3) !important;
+}
+
+.form-control:focus {
+	box-shadow: 0 0 0 0.2rem rgba(0, 128, 128, 0.3) !important;
+}
+
+.custom-select:focus {
+	box-shadow: 0 0 0 0.2rem rgba(0, 128, 128, 0.3) !important;
+}
+
+.custom-file-input:focus {
+	border-color: #08a8b0 !important;
+	box-shadow: 0 0 0 0.2rem rgba(0, 128, 128, 0.3) !important;
+}
+
+a {
+	color: #08a8b0;
+}
+
+a:hover {
+	color: teal;
+}
+
+.bg-dark {
+	background-color: #545454 !important;
+}
+
+.checkbox-letfix {
+	
+  }
+  
+  .checkbox-letfix label {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #08a8b0;
+	border-radius: 4px; 
+  }
+  
+  .checkbox-letfix label:after {
+	content: '';
+	width: 9px;
+	height: 5px;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	border: 3px solid #fcfff4;
+	border-top: none;
+	border-right: none;
+	background: transparent;
+	opacity: 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+  }
+  
+  .checkbox-letfix label:hover::after {
+	opacity: 0.3;
+  }
+  
+  .checkbox-letfix input[type=checkbox] {
+	visibility: hidden;
+  }
+  
+  .checkbox-letfix input[type=checkbox]:checked + label:after {
+	opacity: 1;
+  }
+  /* end .checkbox-letfix */
+  
+  .label-text {
+	position: relative;
+	left: 10px;
+  }
+
+  
+#maincontainer::after {
+	content: "";
+	background: url(../img/bg.jpg);
+	opacity: 0.2;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+  }
+
+.btn-link {
+	color: #08a8b0;
+}
+
+.btn-link:hover {
+	color: teal;
+}
+
+.btn-link:active,
+.btn-link:focus {
+	border-color: #077980 !important;
+	box-shadow: 0 0 0 0.2rem rgba(0, 128, 128, 0.3) !important;
+}

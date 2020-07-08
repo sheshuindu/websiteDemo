@@ -1,0 +1,22 @@
+{
+    "Google Cloud Fundamentals": {
+        "author": "LETFIX",
+        "description": "Fundamental course on GCloud, the world's best cloud provider.",
+        "link": "http://cloud.google.com",
+        "img": "https://i.pcmag.com/imagery/reviews/02yVL9f8Jw1atwoG6sgFZDH-7.fit_scale.size_1028x578.v_1569482492.jpg"
+    },
+
+    "MySQL Onramp": {
+        "author": "LETFIX",
+        "description": "A basic course on kicking started with MySQL, a popular RDBMS server.",
+        "link": "http://www.mysql.com",
+        "img": "https://img-a.udemycdn.com/course/750x422/438552_478d.jpg"
+    },
+
+    "Ethical Hacking": {
+        "author": "LETFIX",
+        "description": "A practical Ethical Hacking course which covers the basics of Kali Linux and it's tools.",
+        "link": "http://www.chandramouli.com",
+        "img": "https://blog.eccouncil.org/wp-content/uploads/2020/05/ethical_hacker.jpg"
+    }
+}

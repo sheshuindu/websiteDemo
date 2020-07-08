@@ -1,0 +1,58 @@
+{
+	"WalletBalance": "1000",
+	"WalletTransactions": {
+		"0": {
+			"date": "23/06/2020",
+			"orderid": "001",
+			"amount": "1000",
+			"status": "Success"
+		},
+		"1": {
+			"date": "23/06/2020",
+			"orderid": "002",
+			"amount": "100",
+			"status": "Success"
+		},
+		"2": {
+			"date": "23/06/2020",
+			"orderid": "003",
+			"amount": "5000",
+			"status": "Success"
+		},
+		"3": {
+			"date": "23/06/2020",
+			"orderid": "004",
+			"amount": "1100",
+			"status": "Success"
+		}
+	},
+	"MyWithdrawals": {
+		"0": {
+			"date": "23/06/2020",
+			"amount": "1000",
+			"status": "Success"
+		},
+		"1": {
+			"date": "23/06/2020",
+			"amount": "100",
+			"status": "Success"
+		},
+		"2": {
+			"date": "23/06/2020",
+			"amount": "5000",
+			"status": "Success"
+		},
+		"3": {
+			"date": "23/06/2020",
+			"amount": "1100",
+			"status": "Success"
+		}
+	},
+	"BankDetails": {
+		"accountname": "Mouli",
+		"accountnumber": "1999",
+		"bankname": "ICICI Bank",
+		"ifsccode": "AC14684FD",
+		"branchname": "Maduravoyal"
+	}
+}

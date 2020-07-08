@@ -1,0 +1,29 @@
+{
+    "Referrals": {
+        "0": {
+            "referralName": "O230620201",
+            "referralEmailID": "example1@gmail.com",
+            "date": "23/06/2020",
+            "earnings": "1000"
+        },
+        "1": {
+            "referralName": "O230620202",
+            "referralEmailID": "example2@gmail.com",
+            "date": "23/06/2020",
+            "earnings": "630"
+        },
+        "2": {
+            "referralName": "O230620203",
+            "referralEmailID": "example3@gmail.com",
+            "date": "23/06/2020",
+            "earnings": "500"
+        },
+        "3": {
+            "referralName": "O230620204",
+            "referralEmailID": "example4@gmail.com",
+            "date": "23/06/2020",
+            "earnings": "670"
+        }
+    },
+    "ReferralCode": "OP78RFDEWS"
+}

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>My Wallet</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <!-- Custom styles for this wireframe -->
+  <link href="css/dashboard.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-4 col-lg-2 mr-0 px-3" style="font-size: 14pt" href="#"><b>Dashboard</b></a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse"
+      data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <b class=" mr-0 w-100 px-3" style="color: white; font-size: 14pt; font-weight: 500;">My Wallet</b>
+
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebarMenu" class="col-md-4 col-lg-2 d-md-block bg-light sidebar collapse">
+        <div class="sidebar-sticky pt-3">
+          <div class="userprofile">
+            <div>
+              <img class="profilepic" src="../images/chatbox/logo.jpeg" />
+            </div>
+            <div class="profilename text-center">
+              LETFIX Technologies
+            </div>
+          </div>
+          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            <span>MAIN MENU</span>
+            <a class="d-flex align-items-center text-muted" href="#" aria-label="Add a new report">
+            </a>
+          </h6>
+
+          <ul class="nav flex-column" id="navigation">
+            <li class="nav-item">
+              <a class="nav-link" href="Subscriptions.htm">
+                <i class="material-icons-outlined icon">bookmarks</i>
+                <span class="text">Subscriptions</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="PaymentHistory.htm">
+                <i class="material-icons-outlined icon">history</i>
+                <span class="text">Payment History</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="MyReferrals.htm">
+                <i class="material-icons-outlined icon">people</i>
+                <span class="text">My Referrals</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="MyWallet.htm">
+                <i class="material-icons-outlined icon">account_balance_wallet</i>
+                <span class="text">My Wallet</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ProfileSettings.htm">
+                <i class="material-icons-outlined icon">account_circle</i>
+                <span class="text">Profile Settings</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">
+                <i class="material-icons-outlined icon">exit_to_app</i>
+                <span class="text">Logout</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main role="main" class="col-md-8 ml-auto col-lg-10 px-md-4" style="padding: 10px;">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#walletdetails" role="tab"
+              aria-controls="home" aria-selected="true">Wallet Details</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#bankdetails" role="tab"
+              aria-controls="profile" aria-selected="false">Bank Details</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#mywithdrawals" role="tab"
+              aria-controls="contact" aria-selected="false">My Withdrawals</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" style="padding: 10px 5% 10px 5%;" id="walletdetails" role="tabpanel"
+            aria-labelledby="home-tab">
+            <div class="row" style="margin-bottom: 100px;">
+              <div class="col-sm" style="margin-top: 20px;">
+                <h4>Wallet Balance</h3>
+                  <i class="material-icons-outlined" id="walleticon">account_balance_wallet</i>
+                  <div id="walletbalance">
+                    
+                  </div>
+                  <div id="walletrecharge" style="padding-top: 20px;">
+                    <button class="btn btn-outline-letfix" data-toggle="modal" data-target="#addWalletBalanceModal"><i
+                        class="material-icons-outlined">add</i>Add Balance</button>
+                  </div>
+              </div>
+              <div class="col-sm-8" style="margin-top: 20px;">
+                <h4>Wallet Transactions</h3>
+                  <table id="walletTransactionsTable" class="table">
+                    <thead>
+					
+                      <tr>
+                        <th>S. No.</th>
+                        <th>Date</th>
+                        <th>Order ID</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                      </tr>
+                    </thead>
+					<tbody id="walletTransactionsData"></tbody>
+                  </table>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="bankdetails" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row" style="padding: 10%;">
+              <div class="col-sm">
+                <div class="form-group">
+                  <label for="AccountName">Account Name</label>
+                  <input type="text" class="form-control" id="AccountName" />
+                </div>
+                <div class="form-group">
+                  <label for="AccountNumber">Account Number</label>
+                  <input type="text" class="form-control" id="AccountNumber" />
+                </div>
+                <div class="form-group">
+                  <label for="BankName">Bank Name</label>
+                  <input type="text" class="form-control" id="BankName" />
+                </div>
+                <div class="form-group">
+                  <label for="IFSCCode">IFSC Code</label>
+                  <input type="text" class="form-control" id="IFSCCode" />
+                </div>
+                <div class="form-group">
+                  <label for="BranchName">Branch Name</label>
+                  <input type="text" class="form-control" id="BranchName" />
+                </div>
+                <div class="form-group text-right">
+                  <button class="btn btn-outline-letfix"><i class="material-icons-outlined">save</i>Update
+                    Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="mywithdrawals" role="tabpanel" aria-labelledby="contact-tab"
+            style="padding: 10%;">
+            <h4>Withdrawal Details</h4>
+            <table id="withdrawalsTable" class="table">
+              <thead>
+                <tr>
+                  <th>S.No.</th>
+                  <th>Date</th>
+                  <th>Amount</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+			  <tbody id="withdrawalsData"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="modal modal-stack fade" id="addWalletBalanceModal" tabindex="-1" role="dialog"
+          aria-labelledby="addWalletBalanceModal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Add Wallet Balance</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <form onsubmit="alert('Wallet Balance Added.')">
+                <div class="modal-body">
+                  <div class="centerbox" id="resetPasswordForm">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">₹</div>
+                      </div>
+                      <input type="number" id="addBalanceAmount" class="form-control" placeholder="Type an amount here."
+                        required autofocus />
+                    </div>
+                    <div class="form-group text-right mt-2 mb-0">
+                      <button type="button" class="btn btn-outline-letfix addamount">+₹100</button>
+                      <button type="button" class="btn btn-outline-letfix addamount">+₹500</button>
+                      <button type="button" class="btn btn-outline-letfix addamount">+₹1000</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer text-center">
+                  <button type="submit" class="btn btn-outline-letfix" id="addBalanceButton"><i
+                      class="material-icons-outlined">shopping_cart</i>Make Payment</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Bootstrap and jQuery Includes -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" charset="utf8"
+    src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+
+  <script language="javascript">
+    
+    $(".addamount").on("click", function(event) {
+      addBalanceAmount.value = parseInt(event.target.innerHTML.substr(2));
+    });
+  </script>
+  <div id="maincontainer"></div>
+  <script src="js/MyWallet.js"></script>
+</body>
+
+</html>
