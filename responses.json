@@ -127,7 +127,7 @@
     "popups": {
         "Contact Us": {
             "id": "contactus",
-            "html": "<a href='mailto:letfixtechnologies@gmail.com'><img src='https://img.icons8.com/color/48/000000/gmail.png' class='socialicon' /></a><a href='https://m.facebook.com/Letfix-Technologies-102835554759316/'><img src='https://img.icons8.com/color/48/000000/facebook.png' class='socialicon' /></a><a href='https://www.linkedin.com/company/letfixtechnologies'><img src='https://img.icons8.com/color/48/000000/linkedin.png' class='socialicon' /></a><a href='https://www.youtube.com/channel/UCHUr2khylXdmffPdq9nByhg'><img src='https://img.icons8.com/color/48/000000/youtube-play.png' class='socialicon' /></a><a href='https://www.instagram.com/letfix_technologies'><img src='https://img.icons8.com/color/48/000000/instagram-new.png' class='socialicon' /></a>"
+            "html": "<a href='mailto:letfixtechnologies@gmail.com'><img src='https://img.icons8.com/color/48/000000/gmail.png' class='socialicon' /></a><a href='https://facebook.com/Letfix-Technologies-102835554759316/'><img src='https://img.icons8.com/color/48/000000/facebook.png' class='socialicon' /></a><a href='https://www.linkedin.com/company/letfixtechnologies'><img src='https://img.icons8.com/color/48/000000/linkedin.png' class='socialicon' /></a><a href='https://www.youtube.com/channel/UCHUr2khylXdmffPdq9nByhg'><img src='https://img.icons8.com/color/48/000000/youtube-play.png' class='socialicon' /></a><a href='https://www.instagram.com/letfix_technologies'><img src='https://img.icons8.com/color/48/000000/instagram-new.png' class='socialicon' /></a>"
         }
     },
     "replies": {
